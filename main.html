@@ -1,0 +1,1240 @@
+<!DOCTYPE html>
+<html lang="da" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professionel hulmursisolering i hele Danmark. Spar op til 30% på varmeregningen med vores energieffektive løsninger. Få gratis tilbud i dag!">
+    <meta name="keywords" content="hulmursisolering, isolering af hulmur, energirenovering, efterisolering, energibesparelse, varmeregning">
+    <title>Hulmursisolering Danmark - Energibesparende Løsninger</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'primary': {
+                            DEFAULT: '#1E40AF', // Deep blue - trust, stability, professionalism
+                            light: '#3B82F6',   // Lighter blue
+                            dark: '#1E3A8A',    // Darker blue
+                        },
+                        'secondary': {
+                            DEFAULT: '#F9FAFB', // Very light gray - clean, modern
+                            light: '#FFFFFF',   // White
+                            dark: '#E5E7EB',    // Light gray
+                        },
+                        'accent': {
+                            DEFAULT: '#F59E0B', // Amber/orange - energy efficiency, warmth
+                            light: '#FBBF24',   // Lighter amber
+                            dark: '#D97706',    // Darker amber
+                        },
+                        'neutral': {
+                            DEFAULT: '#4B5563', // Gray for text
+                            light: '#9CA3AF',   // Light gray for secondary text
+                            dark: '#1F2937',    // Dark gray for headings
+                        }
+                    },
+                    fontFamily: {
+                        'sans': ['Inter', 'sans-serif'],
+                    },
+                    boxShadow: {
+                        'soft': '0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03)',
+                        'elevation': '0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -2px rgba(0, 0, 0, 0.04)',
+                    },
+                    animation: {
+                        'fade-in': 'fadeIn 0.5s ease-in-out',
+                        'slide-up': 'slideUp 0.5s ease-out',
+                    },
+                    keyframes: {
+                        fadeIn: {
+                            '0%': { opacity: '0' },
+                            '100%': { opacity: '1' },
+                        },
+                        slideUp: {
+                            '0%': { transform: 'translateY(20px)', opacity: '0' },
+                            '100%': { transform: 'translateY(0)', opacity: '1' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Add AOS animation library for scroll animations -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <style>
+        /* Smooth scrolling for the entire page */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* Custom styling for the FAQ toggle animation */
+        .faq-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+        }
+
+        .faq-content.active {
+            max-height: 500px;
+        }
+
+        /* Improve form field focus states */
+        input:focus, select:focus, textarea:focus {
+            outline: none;
+            box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.3);
+        }
+    </style>
+</head>
+<body class="font-sans text-neutral-dark bg-secondary-light antialiased">
+<!-- Structured data for local SEO -->
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "CakIsolering Danmark",
+        "image": "Cak-isolering-logo-1.png",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Kirstinehøj 71",
+            "addressLocality": "Tårnby",
+            "postalCode": "2300",
+            "addressCountry": "DK"
+        },
+        "telephone": "+45 50 16 01 51",
+        "priceRange": "$$",
+        "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday"
+            ],
+            "opens": "08:00",
+            "closes": "16:00"
+        },
+        "sameAs": [
+            "https://www.facebook.com/cakisolering",
+            "https://www.instagram.com/cakisolering",
+            "https://www.linkedin.com/company/cakisolering"
+        ]
+    }
+</script>
+
+<!-- Header with improved accessibility and mobile experience -->
+<header class="bg-white shadow-soft sticky top-0 z-50 transition-shadow duration-300">
+    <nav class="container mx-auto px-4 sm:px-6 lg:px-8 py-4">
+        <div class="flex justify-between items-center">
+            <a href="#" class="flex items-center group" aria-label="CakIsolering - Hjem">
+                <img src="Cak-isolering-logo-1.png" alt="Cak Isolering Logo" class="h-8 w-auto mr-2 transition-transform duration-300 group-hover:scale-105">
+                <span class="text-lg font-bold text-primary group-hover:text-primary-light transition-colors duration-300">Cak<span class="text-accent group-hover:text-accent-light transition-colors duration-300">Isolering</span></span>
+            </a>
+
+            <!-- Desktop navigation - improved spacing and hover effects -->
+            <div class="hidden md:flex items-center space-x-1 lg:space-x-6">
+                <a href="#" class="px-3 py-2 text-sm lg:text-base font-medium text-neutral-dark hover:text-primary hover:bg-secondary-dark rounded-md transition-colors duration-300">Forside</a>
+                <a href="#om-os" class="px-3 py-2 text-sm lg:text-base font-medium text-neutral-dark hover:text-primary hover:bg-secondary-dark rounded-md transition-colors duration-300">Om os</a>
+                <a href="#tjenester" class="px-3 py-2 text-sm lg:text-base font-medium text-neutral-dark hover:text-primary hover:bg-secondary-dark rounded-md transition-colors duration-300">Tjenester</a>
+                <a href="#fordele" class="px-3 py-2 text-sm lg:text-base font-medium text-neutral-dark hover:text-primary hover:bg-secondary-dark rounded-md transition-colors duration-300">Fordele</a>
+                <a href="#process" class="px-3 py-2 text-sm lg:text-base font-medium text-neutral-dark hover:text-primary hover:bg-secondary-dark rounded-md transition-colors duration-300">Proces</a>
+                <a href="#referencer" class="px-3 py-2 text-sm lg:text-base font-medium text-neutral-dark hover:text-primary hover:bg-secondary-dark rounded-md transition-colors duration-300">Referencer</a>
+                <a href="#faq" class="px-3 py-2 text-sm lg:text-base font-medium text-neutral-dark hover:text-primary hover:bg-secondary-dark rounded-md transition-colors duration-300">FAQ</a>
+                <a href="#kontakt" class="ml-2 inline-flex items-center px-4 py-2 text-sm lg:text-base font-medium text-white bg-primary hover:bg-primary-light rounded-md transition-colors duration-300 shadow-soft">
+                    <span>Kontakt</span>
+                    <svg class="ml-2 -mr-1 w-4 h-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                    </svg>
+                </a>
+            </div>
+
+            <!-- Mobile menu button with improved touch target -->
+            <div class="md:hidden">
+                <button id="mobile-menu-button" class="p-2 rounded-md text-neutral-dark hover:text-primary hover:bg-secondary-dark focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primary transition-colors duration-300" aria-expanded="false" aria-label="Main menu">
+                    <svg id="menu-open-icon" class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                    <svg id="menu-close-icon" class="hidden w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile navigation - improved animation and user experience -->
+        <div id="mobile-menu" class="hidden md:hidden">
+            <div class="px-2 pt-2 pb-3 space-y-1">
+                <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-neutral-dark hover:text-primary hover:bg-secondary-dark transition-colors duration-300">Forside</a>
+                <a href="#om-os" class="block px-3 py-2 rounded-md text-base font-medium text-neutral-dark hover:text-primary hover:bg-secondary-dark transition-colors duration-300">Om os</a>
+                <a href="#tjenester" class="block px-3 py-2 rounded-md text-base font-medium text-neutral-dark hover:text-primary hover:bg-secondary-dark transition-colors duration-300">Tjenester</a>
+                <a href="#fordele" class="block px-3 py-2 rounded-md text-base font-medium text-neutral-dark hover:text-primary hover:bg-secondary-dark transition-colors duration-300">Fordele</a>
+                <a href="#process" class="block px-3 py-2 rounded-md text-base font-medium text-neutral-dark hover:text-primary hover:bg-secondary-dark transition-colors duration-300">Proces</a>
+                <a href="#referencer" class="block px-3 py-2 rounded-md text-base font-medium text-neutral-dark hover:text-primary hover:bg-secondary-dark transition-colors duration-300">Referencer</a>
+                <a href="#faq" class="block px-3 py-2 rounded-md text-base font-medium text-neutral-dark hover:text-primary hover:bg-secondary-dark transition-colors duration-300">FAQ</a>
+                <a href="#kontakt" class="block px-3 py-2 rounded-md text-base font-medium bg-primary text-white hover:bg-primary-light transition-colors duration-300">Kontakt</a>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!-- Hero section with enhanced visual impact and mobile responsiveness -->
+<section class="relative overflow-hidden">
+    <!-- Video background with optimized mobile display -->
+    <div class="absolute inset-0 w-full h-full">
+        <video class="absolute w-full h-full object-cover" autoplay muted loop playsinline poster="https://via.placeholder.com/1920x1080/1e5631/FFFFFF?text=Hulmursisolering">
+            <source src="Cak-Isolering-mp4.mp4" type="video/mp4">
+        </video>
+        <!-- Improved overlay gradient for better text readability -->
+        <div class="absolute inset-0 bg-gradient-to-r from-primary-dark/90 to-primary/80"></div>
+    </div>
+
+    <!-- Hero content with improved typography and responsive design -->
+    <div class="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20 md:py-24 lg:py-32">
+        <div class="max-w-3xl" data-aos="fade-up" data-aos-duration="1000">
+            <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 text-white leading-tight tracking-tight">Professionel hulmursisolering i hele Danmark</h1>
+            <p class="text-lg md:text-xl mb-8 text-white/90 leading-relaxed">Spar op til 30% på din varmeregning og få et mere behageligt indeklima. Vi tilbyder energieffektiv hulmursisolering udført af erfarne fagfolk.</p>
+            <div class="flex flex-col sm:flex-row gap-4">
+                <a href="#kontakt" class="inline-flex justify-center items-center px-6 py-3 border border-transparent rounded-lg shadow-lg text-lg font-medium text-neutral-dark bg-accent hover:bg-accent-light focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-accent-dark transition-all duration-300 transform hover:-translate-y-1">
+                    <span>Få et gratis tilbud</span>
+                    <svg class="ml-2 -mr-1 w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                    </svg>
+                </a>
+                <a href="#fordele" class="inline-flex justify-center items-center px-6 py-3 border border-transparent rounded-lg shadow-lg text-lg font-medium text-primary bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white transition-all duration-300 transform hover:-translate-y-1">
+                    <span>Se fordele</span>
+                    <svg class="ml-2 -mr-1 w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Trust signals with enhanced visual appeal and mobile layout -->
+<section class="container mx-auto px-4 sm:px-6 lg:px-8 py-6 -mt-6 sm:-mt-10 z-20 relative">
+    <div class="bg-white rounded-lg shadow-elevation p-6 md:p-8" data-aos="fade-up" data-aos-delay="200">
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 md:gap-4">
+            <div class="flex flex-col md:flex-row items-center text-center md:text-left">
+                <div class="bg-secondary p-3 rounded-full mb-3 md:mb-0 md:mr-4">
+                    <i class="fas fa-certificate text-accent text-2xl"></i>
+                </div>
+                <span class="font-medium text-sm lg:text-base">Certificerede teknikere</span>
+            </div>
+            <div class="flex flex-col md:flex-row items-center text-center md:text-left">
+                <div class="bg-secondary p-3 rounded-full mb-3 md:mb-0 md:mr-4">
+                    <i class="fas fa-leaf text-accent text-2xl"></i>
+                </div>
+                <span class="font-medium text-sm lg:text-base">Miljøvenlige materialer</span>
+            </div>
+            <div class="flex flex-col md:flex-row items-center text-center md:text-left">
+                <div class="bg-secondary p-3 rounded-full mb-3 md:mb-0 md:mr-4">
+                    <i class="fas fa-wallet text-accent text-2xl"></i>
+                </div>
+                <span class="font-medium text-sm lg:text-base">Energitilskud hjælp</span>
+            </div>
+            <div class="flex flex-col md:flex-row items-center text-center md:text-left">
+                <div class="bg-secondary p-3 rounded-full mb-3 md:mb-0 md:mr-4">
+                    <i class="fas fa-star text-accent text-2xl"></i>
+                </div>
+                <span class="font-medium text-sm lg:text-base">4.9/5 kundetilfredshed</span>
+            </div>
+            <div class="flex flex-col md:flex-row items-center text-center md:text-left">
+                <div class="bg-secondary p-3 rounded-full mb-3 md:mb-0 md:mr-4">
+                    <i class="fas fa-check-circle text-accent text-2xl"></i>
+                </div>
+                <span class="font-medium text-sm lg:text-base">5 års garanti</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- About us section with improved layout and typography -->
+<section id="om-os" class="py-16 md:py-24">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex flex-col lg:flex-row gap-12 items-center">
+            <div class="lg:w-1/2" data-aos="fade-right">
+                <h2 class="text-2xl sm:text-3xl font-bold mb-6 text-neutral-dark leading-tight">Om Hulmursisolering Danmark</h2>
+                <p class="mb-4 text-neutral leading-relaxed">Hos CAK Isolering leverer vi isoleringsløsninger, der holder dit hjem varmt og energivenligt. Med over 10 års erfaring i branchen sikrer vi professionel udførelse og materialer af højeste kvalitet. Vi hjælper dig med at spare penge på energiregningen og øge komforten i dit hjem – år efter år.</p>
+                <p class="mb-4 text-neutral leading-relaxed">Ofte vil investeringen være tjent hjem på ganske få år, så hvorfor vente?</p>
+                <p class="mb-4 text-neutral leading-relaxed">Alle vores teknikere er uddannede og certificerede, og vi anvender kun de bedste og mest miljøvenlige materialer til vores projekter. Vi dækker hele Danmark og tilbyder skræddersyede løsninger til alle typer bygninger.</p>
+                <p class="mb-8 text-neutral leading-relaxed">Vi er stolte af at være en del af den grønne omstilling i Danmark og bidrager til opfyldelsen af landets klimamål ved at hjælpe boligejere med at reducere deres CO2-udledning.</p>
+                <div class="flex flex-wrap gap-4">
+                    <div class="flex items-center bg-secondary px-5 py-2.5 rounded-full">
+                        <i class="fas fa-home text-primary mr-3"></i>
+                        <span class="font-medium">10+ års erfaring</span>
+                    </div>
+                    <div class="flex items-center bg-secondary px-5 py-2.5 rounded-full">
+                        <i class="fas fa-users text-primary mr-3"></i>
+                        <span class="font-medium">Certificerede teknikere</span>
+                    </div>
+                </div>
+            </div>
+            <div class="lg:w-1/2" data-aos="fade-left">
+                <div class="relative">
+                    <div class="absolute -inset-4 bg-primary/5 rounded-xl transform -rotate-6"></div>
+                    <img src="udskiftning_af_loftlem.webp" alt="Vores team af hulmursisoleringseksperter" class="relative rounded-lg shadow-elevation w-full object-cover h-80 md:h-96 lg:h-[500px]" />
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Services section with enhanced card design and hover effects -->
+<section id="tjenester" class="bg-secondary py-16 md:py-24">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12 md:mb-16" data-aos="fade-up">
+            <h2 class="text-2xl sm:text-3xl font-bold mb-4 text-neutral-dark">Vores isoleringsløsninger</h2>
+            <p class="max-w-2xl mx-auto text-neutral leading-relaxed">Vi tilbyder forskellige typer isolering og energirenoveringsløsninger til alle typer bygninger. Alle løsninger udarbejdes med fuld fokus på kvalitet, holdbarhed og miljøhensyn.</p>
+        </div>
+
+        <!-- Improved grid layout with responsive design -->
+        <div class="grid sm:grid-cols-2 lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
+            <!-- Service 1 with enhanced card design -->
+            <div class="bg-white rounded-lg shadow-elevation overflow-hidden h-full group transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1" data-aos="fade-up" data-aos-delay="100">
+                <div class="relative overflow-hidden">
+                    <img src="hulmuersisolering.webp" alt="Hulmursisolering med granulat" class="w-full h-56 object-cover transition-transform duration-500 group-hover:scale-105" />
+                    <div class="absolute top-4 right-4 bg-primary text-white text-sm font-semibold py-1 px-3 rounded-full">Populær</div>
+                </div>
+                <div class="p-6 sm:p-8">
+                    <h3 class="text-xl font-bold mb-3 text-neutral-dark group-hover:text-primary transition-colors duration-300">Hulmursisolering med granulat</h3>
+                    <p class="mb-6 text-neutral leading-relaxed">Vores professionelle team sørger for en hurtig og sikker installation, der passer til netop din bolig. Spar penge og øg komforten med en investering, der betaler sig fra dag ét!</p>
+                    <a href="#kontakt" class="inline-flex items-center text-primary font-medium hover:text-primary-light transition-colors duration-300 group">
+                        <span>Læs mere</span>
+                        <svg class="ml-2 w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Service 2 -->
+            <div class="bg-white rounded-lg shadow-elevation overflow-hidden h-full group transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1" data-aos="fade-up" data-aos-delay="200">
+                <div class="relative overflow-hidden">
+                    <img src="loftisolering.jpg" alt="Loftisolering" class="w-full h-56 object-cover transition-transform duration-500 group-hover:scale-105" />
+                </div>
+                <div class="p-6 sm:p-8">
+                    <h3 class="text-xl font-bold mb-3 text-neutral-dark group-hover:text-primary transition-colors duration-300">Loftisolering</h3>
+                    <p class="mb-6 text-neutral leading-relaxed">Loftisolering er en af de mest effektive måder at reducere varmetabet i dit hjem på. Da op til 25% af varmen kan forsvinde gennem et dårligt isoleret loft, kan dette give markante besparelser.</p>
+                    <a href="#kontakt" class="inline-flex items-center text-primary font-medium hover:text-primary-light transition-colors duration-300 group">
+                        <span>Læs mere</span>
+                        <svg class="ml-2 w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Service 3 -->
+            <div class="bg-white rounded-lg shadow-elevation overflow-hidden h-full group transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1" data-aos="fade-up" data-aos-delay="300">
+                <div class="relative overflow-hidden">
+                    <img src="skunkisolering.jpg" alt="Skunkisolering" class="w-full h-56 object-cover transition-transform duration-500 group-hover:scale-105" />
+                </div>
+                <div class="p-6 sm:p-8">
+                    <h3 class="text-xl font-bold mb-3 text-neutral-dark group-hover:text-primary transition-colors duration-300">Skunkisolering</h3>
+                    <p class="mb-6 text-neutral leading-relaxed">Ved at isolere skunkrummet mindsker du varmespild og forbedrer indeklimaet. Vores professionelle isolatører sikrer en grundig installation, der holder dit hjem behageligt året rundt.</p>
+                    <a href="#kontakt" class="inline-flex items-center text-primary font-medium hover:text-primary-light transition-colors duration-300 group">
+                        <span>Læs mere</span>
+                        <svg class="ml-2 w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Service 4 -->
+            <div class="bg-white rounded-lg shadow-elevation overflow-hidden h-full group transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1" data-aos="fade-up" data-aos-delay="400">
+                <div class="relative overflow-hidden">
+                    <img src="udskiftning_af_loftlem.webp" alt="Udskiftning af loftlem" class="w-full h-56 object-cover transition-transform duration-500 group-hover:scale-105" />
+                </div>
+                <div class="p-6 sm:p-8">
+                    <h3 class="text-xl font-bold mb-3 text-neutral-dark group-hover:text-primary transition-colors duration-300">Udskiftning af loftlem</h3>
+                    <p class="mb-6 text-neutral leading-relaxed">Ved at vælge en moderne, isoleret loftlem sikrer du, at varmen bliver i boligen, og du undgår unødvendig energispild. Vores erfarne team tilbyder hurtig og professionel udskiftning.</p>
+                    <a href="#kontakt" class="inline-flex items-center text-primary font-medium hover:text-primary-light transition-colors duration-300 group">
+                        <span>Læs mere</span>
+                        <svg class="ml-2 w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Benefits section with improved card design and layout -->
+<section id="fordele" class="py-16 md:py-24">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12 md:mb-16" data-aos="fade-up">
+            <h2 class="text-2xl sm:text-3xl font-bold mb-4 text-neutral-dark">Mærkbare fordele ved hulmursisolering i dit hjem</h2>
+            <p class="max-w-2xl mx-auto text-neutral leading-relaxed">Vidste du, at op til 30% af varmen i dit hus forsvinder gennem dårligt isolerede ydervægge? En professionel hulmursisolering giver dig ikke bare varmere vægge, men en lang række fordele du kan mærke hver dag.</p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Benefit 1 with enhanced card design -->
+            <div class="bg-white p-8 rounded-lg shadow-soft hover:shadow-elevation transition-all duration-300 transform hover:-translate-y-1" data-aos="fade-up" data-aos-delay="100">
+                <div class="w-16 h-16 bg-primary/10 text-primary rounded-full flex items-center justify-center mb-6">
+                    <i class="fas fa-piggy-bank text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3 text-neutral-dark">Spar tusindvis af kroner på varmen</h3>
+                <p class="text-neutral leading-relaxed">Undersøgelser viser at ikke-isolerede huse bruger op til 3 gange mere energi end velisolerede boliger. Hos de fleste familier betyder hulmursisolering en besparelse på 20-30% på varmeregningen - en investering der typisk tjener sig selv ind på 3-5 år.</p>
+            </div>
+
+            <!-- Benefit 2 -->
+            <div class="bg-white p-8 rounded-lg shadow-soft hover:shadow-elevation transition-all duration-300 transform hover:-translate-y-1" data-aos="fade-up" data-aos-delay="200">
+                <div class="w-16 h-16 bg-primary/10 text-primary rounded-full flex items-center justify-center mb-6">
+                    <i class="fas fa-temperature-low text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3 text-neutral-dark">Slut med kolde vægge og træk</h3>
+                <p class="text-neutral leading-relaxed">Kender du til følelsen af kolde ydervægge og ubehagelig træk? Når fugtig luft møder kolde vægge dannes der kondens, som kan give mørke pletter og i værste fald skimmelsvamp. Med hulmursisolering får du jævn temperatur i hele huset og et sundere indeklima for hele familien.</p>
+            </div>
+
+            <!-- Benefit 3 -->
+            <div class="bg-white p-8 rounded-lg shadow-soft hover:shadow-elevation transition-all duration-300 transform hover:-translate-y-1" data-aos="fade-up" data-aos-delay="300">
+                <div class="w-16 h-16 bg-primary/10 text-primary rounded-full flex items-center justify-center mb-6">
+                    <i class="fas fa-leaf text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3 text-neutral-dark">Mindre CO2-udledning til gavn for miljøet</h3>
+                <p class="text-neutral leading-relaxed">Gør noget godt for klimaet og sænk dit CO2-fodaftryk. Vi bruger moderne EPS-materialer som Sundolitt C80 eller Iso-Arctic, der isolerer op til 20% bedre end traditionel glasuld og stenuld, uden at optage fugt eller miste isoleringsevne over tid.</p>
+            </div>
+
+            <!-- Benefit 4 -->
+            <div class="bg-white p-8 rounded-lg shadow-soft hover:shadow-elevation transition-all duration-300 transform hover:-translate-y-1" data-aos="fade-up" data-aos-delay="400">
+                <div class="w-16 h-16 bg-primary/10 text-primary rounded-full flex items-center justify-center mb-6">
+                    <i class="fas fa-home text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3 text-neutral-dark">Øg værdien af din bolig</h3>
+                <p class="text-neutral leading-relaxed">Energimærket er blevet et afgørende salgsparameter. Med en hulmursisolering får din bolig en bedre energimærkning, hvilket gør den mere attraktiv for potentielle købere og øger salgsprisen. Samtidig kan du som boligejer nyde godt af de lavere energiudgifter her og nu.</p>
+            </div>
+
+            <!-- Benefit 5 -->
+            <div class="bg-white p-8 rounded-lg shadow-soft hover:shadow-elevation transition-all duration-300 transform hover:-translate-y-1" data-aos="fade-up" data-aos-delay="500">
+                <div class="w-16 h-16 bg-primary/10 text-primary rounded-full flex items-center justify-center mb-6">
+                    <i class="fas fa-shield-alt text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3 text-neutral-dark">Beskyt dit hus mod fugtskader</h3>
+                <p class="text-neutral leading-relaxed">Hulmursisolering beskytter ikke bare mod kulde, men også mod fugt. Med den rette isolering reducerer du risikoen for skimmelsvamp og råd i husets konstruktioner betydeligt. Isolering dæmper også udefrakommende støj med op til 35%, så du får et roligere hjemmemiljø.</p>
+            </div>
+
+            <!-- Benefit 6 -->
+            <div class="bg-white p-8 rounded-lg shadow-soft hover:shadow-elevation transition-all duration-300 transform hover:-translate-y-1" data-aos="fade-up" data-aos-delay="600">
+                <div class="w-16 h-16 bg-primary/10 text-primary rounded-full flex items-center justify-center mb-6">
+                    <i class="fas fa-award text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3 text-neutral-dark">Få tilskud til din hulmursisolering</h3>
+                <p class="text-neutral leading-relaxed">Vidste du, at du kan få økonomisk tilskud til din hulmursisolering? Vi guider dig gennem ansøgningsprocessen og hjælper dig med at få mest muligt ud af de tilgængelige tilskudsordninger. Book en gratis og uforpligtende opmåling, og få et præcist tilbud med beregning af din årlige besparelse.</p>
+            </div>
+        </div>
+
+        <div class="mt-12 text-center" data-aos="fade-up" data-aos-delay="700">
+            <a href="#kontakt" class="inline-flex items-center px-8 py-4 text-white bg-primary hover:bg-primary-light rounded-lg shadow-elevation hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1 text-lg font-medium">
+                <span>Få gratis opmåling og tilbud</span>
+                <svg class="ml-2 -mr-1 w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                </svg>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Process section with improved timeline design -->
+<section id="process" class="bg-secondary py-16 md:py-24">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12 md:mb-16" data-aos="fade-up">
+            <h2 class="text-2xl sm:text-3xl font-bold mb-4 text-neutral-dark">Sådan foregår hulmursisolering</h2>
+            <p class="max-w-2xl mx-auto text-neutral leading-relaxed">Vores proces er designet til at være så enkel, nem og hurtig som muligt for dig. Fra første kontakt til færdigt projekt tager vi os af alt.</p>
+        </div>
+
+        <div class="max-w-4xl mx-auto">
+            <div class="relative">
+                <!-- Vertical line with enhanced design -->
+                <div class="hidden md:block absolute left-1/2 top-0 bottom-0 w-1 bg-gradient-to-b from-primary-light via-primary to-primary-dark -translate-x-1/2 rounded-full"></div>
+
+                <!-- Steps with improved visual design -->
+                <div class="space-y-12 md:space-y-24">
+                    <!-- Step 1 -->
+                    <div class="flex flex-col md:flex-row items-center" data-aos="fade-up">
+                        <div class="md:w-1/2 md:pr-12 md:text-right mb-4 md:mb-0">
+                            <span class="inline-block text-xs font-semibold tracking-wider text-primary mb-2 uppercase">Trin 1</span>
+                            <h3 class="text-xl font-bold mb-2 text-neutral-dark">Gratis besigtigelse</h3>
+                            <p class="text-neutral leading-relaxed">En af vores teknikere besøger dig og vurderer om hulmursisolering er den rette løsning for dig.</p>
+                        </div>
+                        <div class="md:w-12 md:h-12 bg-primary text-white rounded-full flex items-center justify-center z-10 relative shadow-elevation">
+                            <span class="font-bold">1</span>
+                        </div>
+                        <div class="md:w-1/2 md:pl-12 hidden md:block"></div>
+                    </div>
+
+                    <!-- Step 2 -->
+                    <div class="flex flex-col md:flex-row items-center" data-aos="fade-up">
+                        <div class="md:w-1/2 md:pr-12 hidden md:block"></div>
+                        <div class="md:w-12 md:h-12 bg-primary text-white rounded-full flex items-center justify-center z-10 relative shadow-elevation">
+                            <span class="font-bold">2</span>
+                        </div>
+                        <div class="md:w-1/2 md:pl-12 mb-4 md:mb-0">
+                            <span class="inline-block text-xs font-semibold tracking-wider text-primary mb-2 uppercase">Trin 2</span>
+                            <h3 class="text-xl font-bold mb-2 text-neutral-dark">Uforpligtende tilbud</h3>
+                            <p class="text-neutral leading-relaxed">Du modtager et uforpligtende tilbud, der inkluderer materialer, arbejdstimer og eventuelt energitilskud. Tilbudet kan gennemgås sammen.</p>
+                        </div>
+                    </div>
+
+                    <!-- Step 3 -->
+                    <div class="flex flex-col md:flex-row items-center" data-aos="fade-up">
+                        <div class="md:w-1/2 md:pr-12 md:text-right mb-4 md:mb-0">
+                            <span class="inline-block text-xs font-semibold tracking-wider text-primary mb-2 uppercase">Trin 3</span>
+                            <h3 class="text-xl font-bold mb-2 text-neutral-dark">Planlægning</h3>
+                            <p class="text-neutral leading-relaxed">Efter accept af tilbud planlægger vi arbejdet. Vi aftaler en dag der passer dig, og forbereder materialer og mandskab til opgaven.</p>
+                        </div>
+                        <div class="md:w-12 md:h-12 bg-primary text-white rounded-full flex items-center justify-center z-10 relative shadow-elevation">
+                            <span class="font-bold">3</span>
+                        </div>
+                        <div class="md:w-1/2 md:pl-12 hidden md:block"></div>
+                    </div>
+
+                    <!-- Step 4 -->
+                    <div class="flex flex-col md:flex-row items-center" data-aos="fade-up">
+                        <div class="md:w-1/2 md:pr-12 hidden md:block"></div>
+                        <div class="md:w-12 md:h-12 bg-primary text-white rounded-full flex items-center justify-center z-10 relative shadow-elevation">
+                            <span class="font-bold">4</span>
+                        </div>
+                        <div class="md:w-1/2 md:pl-12 mb-4 md:mb-0">
+                            <span class="inline-block text-xs font-semibold tracking-wider text-primary mb-2 uppercase">Trin 4</span>
+                            <h3 class="text-xl font-bold mb-2 text-neutral-dark">Udførelse</h3>
+                            <p class="text-neutral leading-relaxed">Vores teknikere kommer og udfører arbejdet. Hulmursisolering tager typisk kun én arbejdsdag og skaber minimal forstyrrelse. Vi skal blot have adgang til normal 230v strøm og lidt vand.</p>
+                        </div>
+                    </div>
+
+                    <!-- Step 5 -->
+                    <div class="flex flex-col md:flex-row items-center" data-aos="fade-up">
+                        <div class="md:w-1/2 md:pr-12 md:text-right mb-4 md:mb-0">
+                            <span class="inline-block text-xs font-semibold tracking-wider text-primary mb-2 uppercase">Trin 5</span>
+                            <h3 class="text-xl font-bold mb-2 text-neutral-dark">Kvalitetskontrol</h3>
+                            <p class="text-neutral leading-relaxed">Efter færdig installation tjekker vi med termografisk kamera for at sikre, at isoleringen er effektiv.</p>
+                        </div>
+                        <div class="md:w-12 md:h-12 bg-primary text-white rounded-full flex items-center justify-center z-10 relative shadow-elevation">
+                            <span class="font-bold">5</span>
+                        </div>
+                        <div class="md:w-1/2 md:pl-12 hidden md:block"></div>
+                    </div>
+
+                    <!-- Step 6 -->
+                    <div class="flex flex-col md:flex-row items-center" data-aos="fade-up">
+                        <div class="md:w-1/2 md:pr-12 hidden md:block"></div>
+                        <div class="md:w-12 md:h-12 bg-primary text-white rounded-full flex items-center justify-center z-10 relative shadow-elevation">
+                            <span class="font-bold">6</span>
+                        </div>
+                        <div class="md:w-1/2 md:pl-12">
+                            <span class="inline-block text-xs font-semibold tracking-wider text-primary mb-2 uppercase">Trin 6</span>
+                            <h3 class="text-xl font-bold mb-2 text-neutral-dark">Garanti og opfølgning</h3>
+                            <p class="text-neutral leading-relaxed">Du modtager dokumentation og garanti på arbejdet. Vi følger op efter første varmesæson for at høre om dine erfaringer og energibesparelser.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Call to action with improved design -->
+<section class="relative py-16 md:py-20 overflow-hidden">
+    <!-- Background with subtle pattern -->
+    <div class="absolute inset-0 bg-primary">
+        <div class="absolute inset-0 bg-gradient-to-r from-primary-dark to-primary opacity-80"></div>
+        <div class="absolute inset-0 opacity-5" style="background-image: url('data:image/svg+xml,%3Csvg width=\"60\" height=\"60\" viewBox=\"0 0 60 60\" xmlns=\"http://www.w3.org/2000/svg\"%3E%3Cg fill=\"none\" fill-rule=\"evenodd\"%3E%3Cg fill=\"%23ffffff\" fill-opacity=\"1\"%3E%3Cpath d=\"M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');"></div>
+    </div>
+
+    <div class="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <div class="max-w-2xl mx-auto" data-aos="fade-up">
+            <h2 class="text-2xl sm:text-3xl font-bold mb-4 text-white">Er du klar til at spare på varmeregningen?</h2>
+            <p class="text-white/90 mb-8 text-lg leading-relaxed">Kontakt os i dag for en uforpligtende samtale om hvordan vi kan hjælpe dig med at energioptimere din bolig.</p>
+            <a href="#kontakt" class="inline-flex items-center px-8 py-4 bg-accent hover:bg-accent-light text-neutral-dark rounded-lg shadow-lg transition-all duration-300 transform hover:-translate-y-1 text-lg font-medium">
+                <span>Få et gratis tilbud</span>
+                <svg class="ml-2 -mr-1 w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                </svg>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Testimonials section with enhanced card design -->
+<section id="referencer" class="py-16 md:py-24">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12 md:mb-16" data-aos="fade-up">
+            <h2 class="text-2xl sm:text-3xl font-bold mb-4 text-neutral-dark">Vores kunders erfaringer</h2>
+            <p class="max-w-2xl mx-auto text-neutral leading-relaxed">Hør hvad vores kunder siger om deres oplevelse med hulmursisolering og de resultater, de har opnået.</p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+            <!-- Testimonial 1 with improved design -->
+            <div class="bg-white p-8 rounded-lg shadow-elevation relative" data-aos="fade-up" data-aos-delay="100">
+                <!-- Quote mark -->
+                <div class="absolute top-4 right-4 text-4xl text-primary/10">"</div>
+
+                <div class="flex items-center mb-4">
+                    <div class="text-accent">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <span class="ml-2 text-sm font-medium text-neutral-light">5.0</span>
+                </div>
+                <p class="italic mb-6 text-neutral leading-relaxed">"CAK Isolering gjorde en fantastisk forskel i vores hjem! Hurtig, professionel service og markant bedre indeklima – kan varmt anbefales!"</p>
+                <div class="flex items-center">
+                    <img src="/api/placeholder/60/60" alt="Kunde" class="w-12 h-12 rounded-full mr-4 shadow-soft" />
+                    <div>
+                        <h4 class="font-bold text-neutral-dark">Kaare Jensen</h4>
+                        <p class="text-sm text-neutral-light">Amager, København</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimonial 2 -->
+            <div class="bg-white p-8 rounded-lg shadow-elevation relative" data-aos="fade-up" data-aos-delay="200">
+                <div class="absolute top-4 right-4 text-4xl text-primary/10">"</div>
+
+                <div class="flex items-center mb-4">
+                    <div class="text-accent">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <span class="ml-2 text-sm font-medium text-neutral-light">5.0</span>
+                </div>
+                <p class="italic mb-6 text-neutral leading-relaxed">"Vi fik loftet isoleret af CAK Isolering, og det har allerede sænket vores varmeregning. Super venligt team og præcis som aftalt! Vi forventer at spare mere end 5.000 kr årligt."</p>
+                <div class="flex items-center">
+                    <img src="/api/placeholder/60/60" alt="Kunde" class="w-12 h-12 rounded-full mr-4 shadow-soft" />
+                    <div>
+                        <h4 class="font-bold text-neutral-dark">Jessica Nielsen</h4>
+                        <p class="text-sm text-neutral-light">Amager, København</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimonial 3 -->
+            <div class="bg-white p-8 rounded-lg shadow-elevation relative" data-aos="fade-up" data-aos-delay="300">
+                <div class="absolute top-4 right-4 text-4xl text-primary/10">"</div>
+
+                <div class="flex items-center mb-4">
+                    <div class="text-accent">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span class="ml-2 text-sm font-medium text-neutral-light">4.5</span>
+                </div>
+                <p class="italic mb-6 text-neutral leading-relaxed">"Kvalitetsarbejde fra start til slut! CAK Isolering leverede en effektiv løsning, og vi mærker straks forbedringen i temperaturen. Vores hjem føles nu langt mere behageligt."</p>
+                <div class="flex items-center">
+                    <img src="/api/placeholder/60/60" alt="Kunde" class="w-12 h-12 rounded-full mr-4 shadow-soft" />
+                    <div>
+                        <h4 class="font-bold text-neutral-dark">Anders Madsen</h4>
+                        <p class="text-sm text-neutral-light">Valby, København</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FAQ section with improved accordion design -->
+<section id="faq" class="bg-secondary py-16 md:py-24">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12 md:mb-16" data-aos="fade-up">
+            <h2 class="text-2xl sm:text-3xl font-bold mb-4 text-neutral-dark">Ofte stillede spørgsmål</h2>
+            <p class="max-w-2xl mx-auto text-neutral leading-relaxed">Få svar på de mest almindelige spørgsmål om hulmursisolering og vores services.</p>
+        </div>
+
+        <div class="max-w-3xl mx-auto space-y-4" data-aos="fade-up" data-aos-delay="100">
+            <!-- FAQ Item 1 with improved interactive design -->
+            <div class="bg-white rounded-lg shadow-soft overflow-hidden">
+                <button class="faq-toggle w-full text-left px-6 py-4 focus:outline-none flex justify-between items-center hover:bg-secondary/50 transition-colors duration-300">
+                    <span class="font-bold text-neutral-dark">Hvor meget kan jeg spare på varmeregningen med hulmursisolering?</span>
+                    <svg class="faq-icon w-6 h-6 text-primary transition-transform duration-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </button>
+                <div class="faq-content overflow-hidden max-h-0 transition-all duration-300 ease-in-out px-6 text-neutral leading-relaxed">
+                    <div class="py-4">
+                    <p>De fleste husejere oplever en besparelse på 20-30% på deres varmeregning efter hulmursisolering. Den præcise besparelse afhænger af din boligs nuværende isoleringstilstand, boligens størrelse, og dine varmekilder. Ved vores første besøg kan vi give et mere præcist estimat baseret på din specifikke situation.</p>
+                </div>
+            </div>
+
+            <!-- FAQ Item 2 -->
+                <div class="bg-white rounded-lg shadow-soft overflow-hidden">
+                    <button class="faq-toggle w-full text-left px-6 py-4 focus:outline-none flex justify-between items-center hover:bg-secondary/50 transition-colors duration-300">
+                        <span class="font-bold text-neutral-dark">Hvor lang tid tager det at isolere hulmur?</span>
+                        <svg class="faq-icon w-6 h-6 text-primary transition-transform duration-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </button>
+                    <div class="faq-content overflow-hidden max-h-0 transition-all duration-300 ease-in-out px-6 text-neutral leading-relaxed">
+                        <div class="py-4">
+                    <p>For et gennemsnitligt parcelhus tager hulmursisolering typisk kun én arbejdsdag. Større ejendomme kan tage 2-3 dage. Processen er relativt hurtig og skaber minimal forstyrrelse i din hverdag. Du kan fortsætte med at bruge din bolig som normalt under installationen.</p>
+                </div>
+            </div>
+
+            <!-- FAQ Item 3 -->
+            <div class="bg-white rounded-lg shadow-soft overflow-hidden">
+                <button class="faq-toggle w-full text-left px-6 py-4 focus:outline-none flex justify-between items-center hover:bg-secondary/50 transition-colors duration-300">
+                    <span class="font-bold text-neutral-dark">Er min bolig egnet til hulmursisolering?</span>
+                    <svg class="faq-icon w-6 h-6 text-primary transition-transform duration-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </button>
+                <div class="faq-content overflow-hidden max-h-0 transition-all duration-300 ease-in-out px-6 text-neutral leading-relaxed">
+                    <div class="py-4">
+                    <p>De fleste murstenshuse bygget mellem 1930 og 1980 har hulmure, der er egnede til isolering. Ved vores gratis besigtigelse undersøger vi din bolig for at bekræfte dens egnethed. Vi tjekker murens tilstand, eksisterende isolering og potentielle fugtproblemer for at sikre, at hulmursisolering er den rette løsning for din bolig.</p>
+                </div>
+            </div>
+
+            <!-- FAQ Item 4 -->
+            <div class="bg-white rounded-lg shadow-soft overflow-hidden">
+                <button class="faq-toggle w-full text-left px-6 py-4 focus:outline-none flex justify-between items-center hover:bg-secondary/50 transition-colors duration-300">
+                    <span class="font-bold text-neutral-dark">Kan jeg få tilskud til hulmursisolering?</span>
+                    <svg class="faq-icon w-6 h-6 text-primary transition-transform duration-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </button>
+                <div class="faq-content overflow-hidden max-h-0 transition-all duration-300 ease-in-out px-6 text-neutral leading-relaxed">
+                    <div class="py-4">
+                    <p>Ja, der er ofte energitilskud tilgængelige for hulmursisolering gennem energiselskabernes energispareindsats. Tilskuddets størrelse afhænger af forskellige faktorer, herunder din boligs størrelse og den forventede energibesparelse. Vi hjælper dig med at ansøge om tilskud og guider dig gennem hele processen, så du får maksimalt udbytte af de tilgængelige tilskudsordninger.</p>
+                </div>
+            </div>
+
+            <!-- FAQ Item 5 -->
+            <div class="bg-white rounded-lg shadow-soft overflow-hidden">
+                <button class="faq-toggle w-full text-left px-6 py-4 focus:outline-none flex justify-between items-center hover:bg-secondary/50 transition-colors duration-300">
+                    <span class="font-bold text-neutral-dark">Hvilke materialer bruger I til hulmursisolering?</span>
+                    <svg class="faq-icon w-6 h-6 text-primary transition-transform duration-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </button>
+                <div class="faq-content overflow-hidden max-h-0 transition-all duration-300 ease-in-out px-6 text-neutral leading-relaxed">
+                    <div class="py-4">
+                    <p>Vi bruger primært miljøvenligt EPS-granulat eller mineraluldsgranulat, som begge er testet og godkendt til hulmursisolering. Materialerne er brandhæmmende, fugtafvisende og har en lang levetid. Valget af materiale afhænger af din bygnings specifikke krav, og vores tekniker vil rådgive dig om den bedste løsning for din bolig.</p>
+                </div>
+            </div>
+
+            <!-- FAQ Item 6 -->
+            <div class="bg-white rounded-lg shadow-soft overflow-hidden">
+                <button class="faq-toggle w-full text-left px-6 py-4 focus:outline-none flex justify-between items-center hover:bg-secondary/50 transition-colors duration-300">
+                    <span class="font-bold text-neutral-dark">Skaber hulmursisolering fugtproblemer?</span>
+                    <svg class="faq-icon w-6 h-6 text-primary transition-transform duration-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </button>
+                <div class="faq-content overflow-hidden max-h-0 transition-all duration-300 ease-in-out px-6 text-neutral leading-relaxed">
+                    <div class="py-4">
+                    <p>Når hulmursisolering udføres korrekt, skaber det ikke fugtproblemer. Tværtimod kan det faktisk reducere fugtproblemer ved at holde murene varmere. Før vi isolerer, tjekker vi altid murene for eksisterende fugtproblemer og sikrer, at bygningen er egnet. De materialer, vi bruger, er desuden fugtafvisende og tillader væggen at ånde.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="py-16 md:py-24">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12 md:mb-16" data-aos="fade-up">
+            <h2 class="text-2xl sm:text-3xl font-bold mb-4 text-neutral-dark">Viden og inspiration</h2>
+            <p class="max-w-2xl mx-auto text-neutral leading-relaxed">Få indsigt i energioptimering, råd om isolering og information om tilskudsordninger til din bolig.</p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+            <!-- Blog post 1 - Optimized content -->
+            <article class="bg-white rounded-lg shadow-elevation overflow-hidden group transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1" data-aos="fade-up" data-aos-delay="100">
+                <a href="/blog/nye-energitilskud-2025" class="block relative overflow-hidden">
+                    <img src="/api/placeholder/400/200" alt="Grafik der viser energitilskud til boligforbedringer" class="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-105" />
+                    <div class="absolute top-0 right-0 bg-accent text-neutral-dark text-xs font-bold py-1 px-3 m-4 rounded-full">Nyhed</div>
+                </a>
+                <div class="p-6">
+                    <div class="flex items-center mb-2">
+                        <svg class="w-4 h-4 text-neutral-light mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                        </svg>
+                        <span class="text-sm text-neutral-light">12. marts 2025</span>
+                    </div>
+                    <a href="/blog/nye-energitilskud-2025" class="block">
+                        <h3 class="text-xl font-bold mt-2 mb-3 text-neutral-dark group-hover:text-primary transition-colors duration-300">Nye energitilskud i 2025: Sådan får du mest ud af ordningerne</h3>
+                    </a>
+                    <p class="mb-4 text-neutral leading-relaxed line-clamp-3">Fra marts 2025 har regeringen øget tilskudssatserne til energirenovering med op til 30%. Vi gennemgår de nye regler og viser, hvordan du kan få tilskud til både hulmursisolering, loftisolering og meget mere.</p>
+                    <a href="/blog/nye-energitilskud-2025" class="inline-flex items-center text-primary font-medium hover:text-primary-light transition-colors duration-300 group">
+                        <span>Læs artiklen</span>
+                        <svg class="ml-2 w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                        </svg>
+                    </a>
+                </div>
+            </article>
+
+            <!-- Blog post 2 - More natural Danish content -->
+            <article class="bg-white rounded-lg shadow-elevation overflow-hidden group transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1" data-aos="fade-up" data-aos-delay="200">
+                <a href="/blog/vinterklargoring-5-tips" class="block relative overflow-hidden">
+                    <img src="/api/placeholder/400/200" alt="Et velfisoleret hus i vinterlandskab" class="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-105" />
+                </a>
+                <div class="p-6">
+                    <div class="flex items-center mb-2">
+                        <svg class="w-4 h-4 text-neutral-light mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                        </svg>
+                        <span class="text-sm text-neutral-light">28. februar 2025</span>
+                    </div>
+                    <a href="/blog/vinterklargoring-5-tips" class="block">
+                        <h3 class="text-xl font-bold mt-2 mb-3 text-neutral-dark group-hover:text-primary transition-colors duration-300">5 nemme tips der holder på varmen og sparer dig tusindvis af kroner</h3>
+                    </a>
+                    <p class="mb-4 text-neutral leading-relaxed line-clamp-3">Vinteren kan være dyr for din varmeregning, men med få simple tiltag kan du holde på varmen og spare penge. Vores ekspert deler 5 konkrete råd, som du selv kan udføre på en weekend - og som giver mærkbar effekt med det samme.</p>
+                    <a href="/blog/vinterklargoring-5-tips" class="inline-flex items-center text-primary font-medium hover:text-primary-light transition-colors duration-300 group">
+                        <span>Læs artiklen</span>
+                        <svg class="ml-2 w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                        </svg>
+                    </a>
+                </div>
+            </article>
+
+            <!-- Blog post 3 - SEO improved content -->
+            <article class="bg-white rounded-lg shadow-elevation overflow-hidden group transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1" data-aos="fade-up" data-aos-delay="300">
+                <a href="/blog/termografiske-billeder-guide" class="block relative overflow-hidden">
+                    <img src="/api/placeholder/400/200" alt="Termografisk billede af et hus der viser varmetab" class="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-105" />
+                </a>
+                <div class="p-6">
+                    <div class="flex items-center mb-2">
+                        <svg class="w-4 h-4 text-neutral-light mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                        </svg>
+                        <span class="text-sm text-neutral-light">15. februar 2025</span>
+                    </div>
+                    <a href="/blog/termografiske-billeder-guide" class="block">
+                        <h3 class="text-xl font-bold mt-2 mb-3 text-neutral-dark group-hover:text-primary transition-colors duration-300">Find dine kuldebroer: Sådan læser du termografiske billeder</h3>
+                    </a>
+                    <p class="mb-4 text-neutral leading-relaxed line-clamp-3">Termografi kan afsløre præcis hvor varmen siver ud af dit hus. I denne guide viser vi, hvordan du let kan forstå termografiske billeder, og hvordan du selv kan identificere de kritiske områder, der bør isoleres først for at opnå den største besparelse.</p>
+                    <a href="/blog/termografiske-billeder-guide" class="inline-flex items-center text-primary font-medium hover:text-primary-light transition-colors duration-300 group">
+                        <span>Læs artiklen</span>
+                        <svg class="ml-2 w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                        </svg>
+                    </a>
+                </div>
+            </article>
+        </div>
+
+        <!-- Added button to see all blog posts -->
+        <div class="mt-12 text-center" data-aos="fade-up">
+            <a href="/blog" class="inline-flex items-center px-6 py-3 border border-primary rounded-lg text-lg font-medium text-primary hover:bg-primary hover:text-white transition-all duration-300">
+                <span>Se alle artikler</span>
+                <svg class="ml-2 w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                </svg>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Contact section with improved form design -->
+<section id="kontakt" class="bg-secondary py-16 md:py-24">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12 md:mb-16" data-aos="fade-up">
+            <h2 class="text-2xl sm:text-3xl font-bold mb-4 text-neutral-dark">Kontakt os</h2>
+            <p class="max-w-2xl mx-auto text-neutral leading-relaxed">Har du spørgsmål eller ønsker du et uforpligtende tilbud? Udfyld formularen nedenfor, eller ring direkte til os.</p>
+        </div>
+
+        <div class="flex flex-col lg:flex-row gap-8 lg:gap-12">
+            <!-- Contact form with enhanced design -->
+            <div class="lg:w-2/3 bg-white rounded-lg shadow-elevation p-8 sm:p-10" data-aos="fade-right">
+                <h3 class="text-xl sm:text-2xl font-bold mb-6 text-neutral-dark">Få et gratis tilbud</h3>
+                <form>
+                    <div class="grid md:grid-cols-2 gap-6 mb-6">
+                        <div>
+                            <label for="name" class="block text-sm font-medium text-neutral mb-1">Navn</label>
+                            <input type="text" id="name" name="name" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-primary transition-colors duration-300">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-neutral mb-1">Email</label>
+                            <input type="email" id="email" name="email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-primary transition-colors duration-300">
+                        </div>
+                    </div>
+
+                    <div class="grid md:grid-cols-2 gap-6 mb-6">
+                        <div>
+                            <label for="phone" class="block text-sm font-medium text-neutral mb-1">Telefon</label>
+                            <input type="tel" id="phone" name="phone" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-primary transition-colors duration-300">
+                        </div>
+                        <div>
+                            <label for="zipcode" class="block text-sm font-medium text-neutral mb-1">Postnummer</label>
+                            <input type="text" id="zipcode" name="zipcode" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-primary transition-colors duration-300">
+                        </div>
+                    </div>
+
+                    <div class="mb-6">
+                        <label for="address" class="block text-sm font-medium text-neutral mb-1">Adresse</label>
+                        <input type="text" id="address" name="address" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-primary transition-colors duration-300">
+                    </div>
+
+                    <div class="mb-6">
+                        <label for="house_type" class="block text-sm font-medium text-neutral mb-1">Boligtype</label>
+                        <select id="house_type" name="house_type" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-primary transition-colors duration-300">
+                            <option value="">Vælg boligtype</option>
+                            <option value="villa">Villa/Parcelhus</option>
+                            <option value="townhouse">Rækkehus</option>
+                            <option value="apartment">Etageejendom</option>
+                            <option value="cottage">Sommerhus</option>
+                            <option value="other">Andet</option>
+                        </select>
+                    </div>
+
+                    <div class="mb-6">
+                        <label for="message" class="block text-sm font-medium text-neutral mb-1">Besked (valgfri)</label>
+                        <textarea id="message" name="message" rows="4" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-primary transition-colors duration-300"></textarea>
+                    </div>
+
+                    <div class="mb-6">
+                        <label class="flex items-center">
+                            <input type="checkbox" name="consent" class="w-5 h-5 text-primary border-gray-300 rounded focus:ring-primary">
+                            <span class="ml-2 text-sm text-neutral">Jeg accepterer, at Hulmursisolering Danmark må kontakte mig vedrørende min forespørgsel</span>
+                        </label>
+                    </div>
+
+                    <button type="submit" class="w-full bg-primary hover:bg-primary-light text-white font-bold py-3 px-6 rounded-lg transition-colors duration-300 shadow-elevation transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-dark">
+                        Send forespørgsel
+                    </button>
+                </form>
+            </div>
+
+            <!-- Contact info with enhanced design -->
+            <div class="lg:w-1/3" data-aos="fade-left">
+                <div class="bg-white rounded-lg shadow-elevation p-8 mb-8">
+                    <h3 class="text-xl sm:text-2xl font-bold mb-6 text-neutral-dark">Kontaktinformation</h3>
+
+                    <div class="space-y-6">
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center text-primary">
+                                <i class="fas fa-map-marker-alt text-xl"></i>
+                            </div>
+                            <div class="ml-4">
+                                <h4 class="font-bold text-neutral-dark mb-1">Adresse</h4>
+                                <p class="text-neutral">Kirstinehøj 71<br>2300 Tårnby</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center text-primary">
+                                <i class="fas fa-phone-alt text-xl"></i>
+                            </div>
+                            <div class="ml-4">
+                                <h4 class="font-bold text-neutral-dark mb-1">Telefon</h4>
+                                <p class="text-neutral">
+                                    <a href="tel:+4550160151" class="hover:text-primary transition-colors duration-300">+45 50 16 01 51</a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center text-primary">
+                                <i class="fas fa-envelope text-xl"></i>
+                            </div>
+                            <div class="ml-4">
+                                <h4 class="font-bold text-neutral-dark mb-1">Email</h4>
+                                <p class="text-neutral">
+                                    <a href="mailto:info@hulmursisolering-danmark.dk" class="hover:text-primary transition-colors duration-300">kontakt@cakisolering.dk</a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center text-primary">
+                                <i class="fas fa-clock text-xl"></i>
+                            </div>
+                            <div class="ml-4">
+                                <h4 class="font-bold text-neutral-dark mb-1">Åbningstider</h4>
+                                <p class="text-neutral">Man-Fre: 08:00 - 16:00<br>Lør-Søn: Lukket</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-elevation p-8">
+                    <h3 class="text-xl sm:text-2xl font-bold mb-6 text-neutral-dark">Følg os</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center hover:bg-blue-700 transition-colors duration-300 transform hover:scale-110" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="w-12 h-12 bg-pink-600 text-white rounded-full flex items-center justify-center hover:bg-pink-700 transition-colors duration-300 transform hover:scale-110" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="w-12 h-12 bg-blue-800 text-white rounded-full flex items-center justify-center hover:bg-blue-900 transition-colors duration-300 transform hover:scale-110" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="w-12 h-12 bg-red-600 text-white rounded-full flex items-center justify-center hover:bg-red-700 transition-colors duration-300 transform hover:scale-110" aria-label="YouTube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer with improved layout and design -->
+<footer class="bg-neutral-dark text-white pt-16 pb-8">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+            <div>
+                <h4 class="text-lg font-bold mb-4 border-b border-white/10 pb-2">Om os</h4>
+                <p class="mb-6 text-white/80 leading-relaxed">CakIsolering Danmark er specialister i energieffektiv isolering. Vi hjælper boligejere i hele landet med at spare på varmeregningen og forbedre indeklimaet.</p>
+                <div class="flex items-center">
+                    <img src="Cak-isolering-logo-1.png" alt="" class="h-8 w-auto mr-2">
+                    <span class="text-lg font-bold">Cak<span class="text-accent">Isolering</span></span>
+                </div>
+            </div>
+
+            <div>
+                <h4 class="text-lg font-bold mb-4 border-b border-white/10 pb-2">Tjenester</h4>
+                <ul class="space-y-2">
+                    <li><a href="#" class="text-white/80 hover:text-accent transition-colors duration-300 flex items-center">
+                        <svg class="w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                        Hulmursisolering
+                    </a></li>
+                    <li><a href="#" class="text-white/80 hover:text-accent transition-colors duration-300 flex items-center">
+                        <svg class="w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                        Indvendig isolering
+                    </a></li>
+                    <li><a href="#" class="text-white/80 hover:text-accent transition-colors duration-300 flex items-center">
+                        <svg class="w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                        Facadeisolering
+                    </a></li>
+                    <li><a href="#" class="text-white/80 hover:text-accent transition-colors duration-300 flex items-center">
+                        <svg class="w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                        Loftisolering
+                    </a></li>
+                    <li><a href="#" class="text-white/80 hover:text-accent transition-colors duration-300 flex items-center">
+                        <svg class="w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                        Energitjek
+                    </a></li>
+                    <li><a href="#" class="text-white/80 hover:text-accent transition-colors duration-300 flex items-center">
+                        <svg class="w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                        Termografisk undersøgelse
+                    </a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="text-lg font-bold mb-4 border-b border-white/10 pb-2">Områder</h4>
+                <ul class="space-y-2">
+                    <li><a href="#" class="text-white/80 hover:text-accent transition-colors duration-300 flex items-center">
+                        <svg class="w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                        København
+                    </a></li>
+                    <li><a href="#" class="text-white/80 hover:text-accent transition-colors duration-300 flex items-center">
+                        <svg class="w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                        Aarhus
+                    </a></li>
+                    <li><a href="#" class="text-white/80 hover:text-accent transition-colors duration-300 flex items-center">
+                        <svg class="w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                        Odense
+                    </a></li>
+                    <li><a href="#" class="text-white/80 hover:text-accent transition-colors duration-300 flex items-center">
+                        <svg class="w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                        Aalborg
+                    </a></li>
+                    <li><a href="#" class="text-white/80 hover:text-accent transition-colors duration-300 flex items-center">
+                        <svg class="w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                        Esbjerg
+                    </a></li>
+                    <li><a href="#" class="text-white/80 hover:text-accent transition-colors duration-300 flex items-center">
+                        <svg class="w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                        Hele Danmark
+                    </a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="text-lg font-bold mb-4 border-b border-white/10 pb-2">Kontakt</h4>
+                <ul class="space-y-4">
+                    <li class="flex items-start">
+                        <div class="flex-shrink-0 w-8 h-8 bg-white/10 rounded-full flex items-center justify-center mt-1">
+                            <i class="fas fa-map-marker-alt text-accent"></i>
+                        </div>
+                        <span class="ml-3 text-white/80">Kirstinehøj 71<br>2100 København</span>
+                    </li>
+                    <li class="flex items-start">
+                        <div class="flex-shrink-0 w-8 h-8 bg-white/10 rounded-full flex items-center justify-center mt-1">
+                            <i class="fas fa-phone-alt text-accent"></i>
+                        </div>
+                        <span class="ml-3 text-white/80">+45 50 16 01 51</span>
+                    </li>
+                    <li class="flex items-start">
+                        <div class="flex-shrink-0 w-8 h-8 bg-white/10 rounded-full flex items-center justify-center mt-1">
+                            <i class="fas fa-envelope text-accent"></i>
+                        </div>
+                        <span class="ml-3 text-white/80">kontakt@cakisolering.dk</span>
+                    </li>
+                    <li class="flex items-start">
+                        <div class="flex-shrink-0 w-8 h-8 bg-white/10 rounded-full flex items-center justify-center mt-1">
+                            <i class="fas fa-clock text-accent"></i>
+                        </div>
+                        <span class="ml-3 text-white/80">Man-Fre: 08:00 - 16:00<br>Lør-Søn: Lukket</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <hr class="border-white/10 my-8">
+
+        <div class="flex flex-col md:flex-row justify-between items-center">
+            <p class="text-white/70 text-sm mb-4 md:mb-0">&copy; 2025 CakIsolering Danmark. Alle rettigheder forbeholdes.</p>
+            <div class="flex flex-wrap justify-center space-x-6">
+                <a href="#" class="text-white/70 hover:text-accent text-sm transition-colors duration-300">Privatlivspolitik</a>
+                <a href="#" class="text-white/70 hover:text-accent text-sm transition-colors duration-300">Cookiepolitik</a>
+                <a href="#" class="text-white/70 hover:text-accent text-sm transition-colors duration-300">Vilkår og betingelser</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Back to top button -->
+<button id="back-to-top" class="fixed bottom-6 right-6 w-12 h-12 bg-primary text-white rounded-full shadow-elevation flex items-center justify-center opacity-0 invisible transition-all duration-300 hover:bg-primary-light transform hover:-translate-y-1 z-50">
+    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"></path>
+    </svg>
+</button>
+
+<!-- Initialize AOS animations and other JavaScript functionality -->
+<script>
+    // Initialize AOS animation library
+    document.addEventListener('DOMContentLoaded', function() {
+        AOS.init({
+            duration: 800,
+            easing: 'ease-out',
+            once: true
+        });
+
+        // Mobile menu toggle with improved animation
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const menuOpenIcon = document.getElementById('menu-open-icon');
+        const menuCloseIcon = document.getElementById('menu-close-icon');
+
+        mobileMenuButton.addEventListener('click', function() {
+            mobileMenu.classList.toggle('hidden');
+            menuOpenIcon.classList.toggle('hidden');
+            menuCloseIcon.classList.toggle('hidden');
+        });
+
+        // Close mobile menu when clicking on a link
+        const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+        mobileMenuLinks.forEach(link => {
+            link.addEventListener('click', function() {
+                mobileMenu.classList.add('hidden');
+                menuOpenIcon.classList.remove('hidden');
+                menuCloseIcon.classList.add('hidden');
+            });
+        });
+
+        // Find all FAQ toggle buttons
+        const toggleButtons = document.querySelectorAll('.faq-toggle');
+
+        // Add click event listener to each button
+        toggleButtons.forEach(button => {
+            button.addEventListener('click', function() {
+                // Get the content element that follows this button
+                const content = this.nextElementSibling;
+
+                // Toggle the active class on the content
+                content.classList.toggle('active');
+
+                // Rotate the icon when open
+                const icon = this.querySelector('.faq-icon');
+                icon.classList.toggle('rotate-180');
+            });
+        });
+
+        // Back to top button functionality
+        const backToTopButton = document.getElementById('back-to-top');
+
+        window.addEventListener('scroll', function() {
+            if (window.pageYOffset > 300) {
+                backToTopButton.classList.remove('opacity-0', 'invisible');
+                backToTopButton.classList.add('opacity-100', 'visible');
+            } else {
+                backToTopButton.classList.remove('opacity-100', 'visible');
+                backToTopButton.classList.add('opacity-0', 'invisible');
+            }
+        });
+
+        backToTopButton.addEventListener('click', function() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        // Add shadow to header on scroll
+        const header = document.querySelector('header');
+
+        window.addEventListener('scroll', function() {
+            if (window.scrollY > 10) {
+                header.classList.add('shadow-elevation');
+                header.classList.remove('shadow-soft');
+            } else {
+                header.classList.remove('shadow-elevation');
+                header.classList.add('shadow-soft');
+            }
+        });
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    const headerHeight = document.querySelector('header').offsetHeight;
+                    const targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset - headerHeight;
+
+                    window.scrollTo({
+                        top: targetPosition,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    });
+</script>
+</body>
+</html>
