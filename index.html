@@ -66,10 +66,17 @@
     <!-- Add AOS animation library for scroll animations -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="js/contact-form.js"></script>
     <style>
         /* Smooth scrolling for the entire page */
         html {
             scroll-behavior: smooth;
+            overflow-x: hidden; /* Prevent horizontal overflow */
+        }
+
+        /* Prevent horizontal overflow/scrolling */
+        body {
+            overflow-x: hidden;
         }
 
         /* Custom styling for the FAQ toggle animation */
@@ -596,7 +603,7 @@
                     </div>
                 </div>
             </div>
-            <div class="lg:w-1/2" data-aos="fade-left">
+            <div class="lg:w-1/2 overflow-hidden" data-aos="fade-left">
                 <div class="relative">
                     <div class="absolute -inset-4 bg-primary/5 rounded-xl transform -rotate-6"></div>
                     <img src="udskiftning_af_loftlem.webp" alt="Vores team af hulmursisoleringseksperter" class="relative rounded-lg shadow-elevation w-full object-cover h-80 md:h-96 lg:h-[500px]" />
@@ -777,80 +784,74 @@
                 <!-- Vertical line with enhanced design -->
                 <div class="hidden md:block absolute left-1/2 top-0 bottom-0 w-1 bg-gradient-to-b from-primary-light via-primary to-primary-dark -translate-x-1/2 rounded-full"></div>
 
-                <!-- Steps with improved visual design -->
-                <div class="space-y-12 md:space-y-24">
-                    <!-- Step 1 -->
-                    <div class="flex flex-col md:flex-row items-center" data-aos="fade-up">
-                        <div class="md:w-1/2 md:pr-12 md:text-right mb-4 md:mb-0">
+                <!-- Steps with Card layout -->
+                <div class="space-y-12">
+                    <!-- Step 1 Card -->
+                    <div class="bg-white rounded-lg shadow-soft p-6 flex items-start gap-4" data-aos="fade-up">
+                        <div class="w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center z-10 relative shadow-elevation flex-shrink-0">
+                            <span class="font-bold">1</span>
+                        </div>
+                        <div>
                             <span class="inline-block text-xs font-semibold tracking-wider text-primary mb-2 uppercase">Trin 1</span>
                             <h3 class="text-xl font-bold mb-2 text-neutral-dark">Gratis besigtigelse</h3>
                             <p class="text-neutral leading-relaxed">En af vores teknikere besøger dig og vurderer om hulmursisolering er den rette løsning for dig.</p>
                         </div>
-                        <div class="md:w-12 md:h-12 bg-primary text-white rounded-full flex items-center justify-center z-10 relative shadow-elevation">
-                            <span class="font-bold">1</span>
-                        </div>
-                        <div class="md:w-1/2 md:pl-12 hidden md:block"></div>
                     </div>
 
-                    <!-- Step 2 -->
-                    <div class="flex flex-col md:flex-row items-center" data-aos="fade-up">
-                        <div class="md:w-1/2 md:pr-12 hidden md:block"></div>
-                        <div class="md:w-12 md:h-12 bg-primary text-white rounded-full flex items-center justify-center z-10 relative shadow-elevation">
+                    <!-- Step 2 Card -->
+                    <div class="bg-white rounded-lg shadow-soft p-6 flex items-start gap-4" data-aos="fade-up">
+                        <div class="w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center z-10 relative shadow-elevation flex-shrink-0">
                             <span class="font-bold">2</span>
                         </div>
-                        <div class="md:w-1/2 md:pl-12 mb-4 md:mb-0">
+                        <div>
                             <span class="inline-block text-xs font-semibold tracking-wider text-primary mb-2 uppercase">Trin 2</span>
                             <h3 class="text-xl font-bold mb-2 text-neutral-dark">Uforpligtende tilbud</h3>
                             <p class="text-neutral leading-relaxed">Du modtager et uforpligtende tilbud, der inkluderer materialer, arbejdstimer og eventuelt energitilskud. Tilbudet kan gennemgås sammen.</p>
                         </div>
                     </div>
 
-                    <!-- Step 3 -->
-                    <div class="flex flex-col md:flex-row items-center" data-aos="fade-up">
-                        <div class="md:w-1/2 md:pr-12 md:text-right mb-4 md:mb-0">
+                    <!-- Step 3 Card -->
+                    <div class="bg-white rounded-lg shadow-soft p-6 flex items-start gap-4" data-aos="fade-up">
+                        <div class="w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center z-10 relative shadow-elevation flex-shrink-0">
+                            <span class="font-bold">3</span>
+                        </div>
+                        <div>
                             <span class="inline-block text-xs font-semibold tracking-wider text-primary mb-2 uppercase">Trin 3</span>
                             <h3 class="text-xl font-bold mb-2 text-neutral-dark">Planlægning</h3>
                             <p class="text-neutral leading-relaxed">Efter accept af tilbud planlægger vi arbejdet. Vi aftaler en dag der passer dig, og forbereder materialer og mandskab til opgaven.</p>
                         </div>
-                        <div class="md:w-12 md:h-12 bg-primary text-white rounded-full flex items-center justify-center z-10 relative shadow-elevation">
-                            <span class="font-bold">3</span>
-                        </div>
-                        <div class="md:w-1/2 md:pl-12 hidden md:block"></div>
                     </div>
 
-                    <!-- Step 4 -->
-                    <div class="flex flex-col md:flex-row items-center" data-aos="fade-up">
-                        <div class="md:w-1/2 md:pr-12 hidden md:block"></div>
-                        <div class="md:w-12 md:h-12 bg-primary text-white rounded-full flex items-center justify-center z-10 relative shadow-elevation">
+                    <!-- Step 4 Card -->
+                    <div class="bg-white rounded-lg shadow-soft p-6 flex items-start gap-4" data-aos="fade-up">
+                        <div class="w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center z-10 relative shadow-elevation flex-shrink-0">
                             <span class="font-bold">4</span>
                         </div>
-                        <div class="md:w-1/2 md:pl-12 mb-4 md:mb-0">
+                        <div>
                             <span class="inline-block text-xs font-semibold tracking-wider text-primary mb-2 uppercase">Trin 4</span>
                             <h3 class="text-xl font-bold mb-2 text-neutral-dark">Udførelse</h3>
                             <p class="text-neutral leading-relaxed">Vores teknikere kommer og udfører arbejdet. Hulmursisolering tager typisk kun én arbejdsdag og skaber minimal forstyrrelse. Vi skal blot have adgang til normal 230v strøm og lidt vand.</p>
                         </div>
                     </div>
 
-                    <!-- Step 5 -->
-                    <div class="flex flex-col md:flex-row items-center" data-aos="fade-up">
-                        <div class="md:w-1/2 md:pr-12 md:text-right mb-4 md:mb-0">
+                    <!-- Step 5 Card -->
+                    <div class="bg-white rounded-lg shadow-soft p-6 flex items-start gap-4" data-aos="fade-up">
+                        <div class="w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center z-10 relative shadow-elevation flex-shrink-0">
+                            <span class="font-bold">5</span>
+                        </div>
+                        <div>
                             <span class="inline-block text-xs font-semibold tracking-wider text-primary mb-2 uppercase">Trin 5</span>
                             <h3 class="text-xl font-bold mb-2 text-neutral-dark">Kvalitetskontrol</h3>
                             <p class="text-neutral leading-relaxed">Efter færdig installation tjekker vi med termografisk kamera for at sikre, at isoleringen er effektiv.</p>
                         </div>
-                        <div class="md:w-12 md:h-12 bg-primary text-white rounded-full flex items-center justify-center z-10 relative shadow-elevation">
-                            <span class="font-bold">5</span>
-                        </div>
-                        <div class="md:w-1/2 md:pl-12 hidden md:block"></div>
                     </div>
 
-                    <!-- Step 6 -->
-                    <div class="flex flex-col md:flex-row items-center" data-aos="fade-up">
-                        <div class="md:w-1/2 md:pr-12 hidden md:block"></div>
-                        <div class="md:w-12 md:h-12 bg-primary text-white rounded-full flex items-center justify-center z-10 relative shadow-elevation">
+                    <!-- Step 6 Card -->
+                    <div class="bg-white rounded-lg shadow-soft p-6 flex items-start gap-4" data-aos="fade-up">
+                        <div class="w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center z-10 relative shadow-elevation flex-shrink-0">
                             <span class="font-bold">6</span>
                         </div>
-                        <div class="md:w-1/2 md:pl-12">
+                        <div>
                             <span class="inline-block text-xs font-semibold tracking-wider text-primary mb-2 uppercase">Trin 6</span>
                             <h3 class="text-xl font-bold mb-2 text-neutral-dark">Garanti og opfølgning</h3>
                             <p class="text-neutral leading-relaxed">Du modtager dokumentation og garanti på arbejdet. Vi følger op efter første varmesæson for at høre om dine erfaringer og energibesparelser.</p>
@@ -867,7 +868,7 @@
     <!-- Background with subtle pattern -->
     <div class="absolute inset-0 bg-primary">
         <div class="absolute inset-0 bg-gradient-to-r from-primary-dark to-primary opacity-80"></div>
-        <div class="absolute inset-0 opacity-5" style="background-image: url('data:image/svg+xml,%3Csvg width=\"60\" height=\"60\" viewBox=\"0 0 60 60\" xmlns=\"http://www.w3.org/2000/svg\"%3E%3Cg fill=\"none\" fill-rule=\"evenodd\"%3E%3Cg fill=\"%23ffffff\" fill-opacity=\"1\"%3E%3Cpath d=\"M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');"></div>
+        <div class="absolute inset-0 opacity-5" style="background-image: url('data:image/svg+xml,%3Csvg width=\"60\" height=\"60\" viewBox=\"0 0 60 60\" xmlns=\"http://www.w3.org/2000/svg\"%3E%3Cg fill=\"none\" fill-rule=\"evenodd\"%3E%3Cg fill=\"%23ffffff\" fill-opacity=\"1\"%3E%3Cpath d=\"M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2V6h4V4H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');"></div>
     </div>
 
     <div class="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 text-center">
