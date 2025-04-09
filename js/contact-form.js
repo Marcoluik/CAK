@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
             submitButton.innerHTML = '<span class="inline-block animate-spin mr-2">⌛</span>Sender...';
             
             try {
-                const response = await fetch('/api/contact', {
+                const response = await fetch('/contact.php', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
@@ -35,8 +35,10 @@ document.addEventListener('DOMContentLoaded', function() {
                     body: JSON.stringify(data)
                 });
                 
+                const result = await response.json();
+                
                 if (!response.ok) {
-                    throw new Error('Der opstod en fejl ved afsendelse af din forespørgsel');
+                    throw new Error(result.error || 'Der opstod en fejl ved afsendelse af din forespørgsel');
                 }
                 
                 // Show success message
