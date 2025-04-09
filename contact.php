@@ -1,52 +1,44 @@
 <?php
-header('Content-Type: application/json');
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
 
-// Get form data
-$data = json_decode(file_get_contents('php://input'), true);
+require 'vendor/autoload.php';
 
-// Validate required fields
-$required_fields = ['name', 'email', 'phone', 'zipcode', 'address', 'house_type'];
-foreach ($required_fields as $field) {
-    if (empty($data[$field])) {
+$mail = new PHPMailer(true);
+
+try {
+    // Get JSON data
+    $data = json_decode(file_get_contents('php://input'), true);
+
+    // Validate data
+    if (!isset($data['name'], $data['email'], $data['phone'], $data['zipcode'], $data['address'], $data['house_type'])) {
         http_response_code(400);
-        echo json_encode(['error' => 'All required fields must be filled out']);
+        echo json_encode(['error' => 'All fields are required.']);
         exit;
     }
-}
 
-// Prepare email content
-$to = 'kontakt@cakisolering.dk';
-$subject = 'Ny kontaktformular forespørgsel';
-$message = "
-<h2>Ny forespørgsel fra kontaktformularen</h2>
-<p><strong>Navn:</strong> {$data['name']}</p>
-<p><strong>Email:</strong> {$data['email']}</p>
-<p><strong>Telefon:</strong> {$data['phone']}</p>
-<p><strong>Postnummer:</strong> {$data['zipcode']}</p>
-<p><strong>Adresse:</strong> {$data['address']}</p>
-<p><strong>Boligtype:</strong> {$data['house_type']}</p>
-";
+    // Server settings
+    $mail->isSMTP();
+    $mail->Host = 'send.one.com';
+    $mail->SMTPAuth = true;
+    $mail->Username = 'kontakt@cakisolering.dk';
+    $mail->Password = 'Basse30/12';
+    $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
+    $mail->Port = 465;
 
-if (!empty($data['message'])) {
-    $message .= "<p><strong>Besked:</strong> {$data['message']}</p>";
-}
+    // Recipients
+    $mail->setFrom('kontakt@cakisolering.dk', 'Mailer');
+    $mail->addAddress('kontakt@cakisolering.dk', 'Recipient Name');
 
-// Email headers
-$headers = [
-    'MIME-Version: 1.0',
-    'Content-type: text/html; charset=utf-8',
-    'From: ' . $data['email'],
-    'Reply-To: ' . $data['email'],
-    'X-Mailer: PHP/' . phpversion()
-];
+    // Content
+    $mail->isHTML(true);
+    $mail->Subject = 'Contact Form Submission';
+    $mail->Body    = 'Name: ' . $data['name'] . '<br>Email: ' . $data['email'] . '<br>Phone: ' . $data['phone'] . '<br>Zipcode: ' . $data['zipcode'] . '<br>Address: ' . $data['address'] . '<br>House Type: ' . $data['house_type'];
 
-// Send email
-$mail_sent = mail($to, $subject, $message, implode("\r\n", $headers));
-
-if ($mail_sent) {
-    echo json_encode(['message' => 'Email sent successfully']);
-} else {
+    $mail->send();
+    echo json_encode(['success' => 'Message has been sent']);
+} catch (Exception $e) {
     http_response_code(500);
-    echo json_encode(['error' => 'Failed to send email']);
+    echo json_encode(['error' => "Message could not be sent. Mailer Error: {$mail->ErrorInfo}"]);
 }
-?> 
+?>
