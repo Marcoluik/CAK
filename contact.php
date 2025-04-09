@@ -1,4 +1,11 @@
 <?php
+// --- START: Added Debug Logging ---
+error_reporting(E_ALL); // Report all PHP errors
+ini_set('display_errors', 0); // Don't display errors to the browser
+ini_set('log_errors', 1); // Enable error logging
+ini_set('error_log', __DIR__ . '/cak_debug.log'); // Log errors to /www/cak_debug.log
+// --- END: Added Debug Logging ---
+
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
@@ -11,6 +18,8 @@ $debugOutput = '';
 
 // Custom function to capture debug output
 $mail->Debugoutput = function($str, $level) use (&$debugOutput) {
+    // Also log debug output immediately as it happens
+    error_log("PHPMailer Debug ($level): $str");
     $debugOutput .= "$str\n";
 };
 
@@ -18,34 +27,52 @@ try {
     // Get JSON data
     $data = json_decode(file_get_contents('php://input'), true);
 
-    // Validate data
-    if (!isset($data['name'], $data['email'], $data['phone'], $data['zipcode'], $data['address'], $data['house_type'])) {
+    // Basic validation check
+    if (empty($data)) {
         http_response_code(400);
-        echo json_encode(['error' => 'All fields except message are required.']);
+        error_log("Contact form error: Received empty JSON data.");
+        echo json_encode(['error' => 'Invalid request data.']);
+        exit;
+    }
+
+    // More robust validation
+    $required_fields = ['name', 'email', 'phone', 'zipcode', 'address', 'house_type'];
+    $missing_fields = [];
+    foreach ($required_fields as $field) {
+        if (!isset($data[$field]) || trim($data[$field]) === '') {
+            $missing_fields[] = $field;
+        }
+    }
+
+    if (!empty($missing_fields)) {
+        http_response_code(400);
+        $error_message = 'Missing required fields: ' . implode(', ', $missing_fields);
+        error_log("Contact form error: $error_message");
+        echo json_encode(['error' => 'Venligst udfyld alle påkrævede felter.']); // User-friendly message
         exit;
     }
 
     // Server settings
-    $mail->SMTPDebug = 2; // Still enable debugging internally
+    $mail->SMTPDebug = 2; // Still enable internal debugging level
     // $mail->SMTPDebug = 0; // Use 0 for production after debugging
     $mail->isSMTP();
     $mail->Host = 'send.one.com';
     $mail->SMTPAuth = true;
     $mail->Username = 'kontakt@cakisolering.dk';
-    $mail->Password = 'Basse30/12'; // Consider using environment variables or a config file for sensitive data
+    $mail->Password = 'Basse30/12'; // IMPORTANT: Use environment variables or config file
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
     $mail->Port = 465;
 
     // Recipients
-    $mail->setFrom('kontakt@cakisolering.dk', 'CAK Isolering Website'); // More descriptive sender name
-    $mail->addAddress('kontakt@cakisolering.dk', 'CAK Isolering Inbox'); // More descriptive recipient name
+    $mail->setFrom('kontakt@cakisolering.dk', 'CAK Isolering Website');
+    $mail->addAddress('kontakt@cakisolering.dk', 'CAK Isolering Inbox');
 
     // Content
     $mail->isHTML(true);
-    $mail->CharSet = 'UTF-8'; // Ensure proper character encoding
-    $mail->Subject = 'Ny Henvendelse fra Hjemmeside: ' . htmlspecialchars($data['name']); // More informative subject
+    $mail->CharSet = 'UTF-8';
+    $mail->Subject = 'Ny Henvendelse fra Hjemmeside: ' . htmlspecialchars($data['name']);
 
-    // Build HTML Body
+    // Build HTML Body (keep existing styles)
     $body = '<!DOCTYPE html>
     <html lang="da">
     <head>
@@ -128,7 +155,7 @@ try {
         'cottage' => 'Sommerhus',
         'other' => 'Andet'
     ];
-    $houseTypeText = isset($houseTypeMap[$data['house_type']]) ? $houseTypeMap[$data['house_type']] : htmlspecialchars($data['house_type']); // Fallback to original value if not found
+    $houseTypeText = isset($houseTypeMap[$data['house_type']]) ? $houseTypeMap[$data['house_type']] : htmlspecialchars($data['house_type']);
 
     $body .= '<tr><td class="label">Boligtype:</td><td class="value">' . $houseTypeText . '</td></tr>';
 
@@ -147,23 +174,23 @@ try {
     </html>';
 
     $mail->Body = $body;
-    // Optional: Add a plain text version for non-HTML mail clients
-    $altBody = "Ny henvendelse:\nNavn: {$data['name']}\nEmail: {$data['email']}\nTelefon: {$data['phone']}\nPostnummer: {$data['zipcode']}\nAdresse: {$data['address']}\nBoligtype: {$houseTypeText}" . (!empty($message) ? "\nBesked: {$message}" : ''); // Use mapped text here too
+    // Plain text version
+    $altBody = "Ny henvendelse:\nNavn: {$data['name']}\nEmail: {$data['email']}\nTelefon: {$data['phone']}\nPostnummer: {$data['zipcode']}\nAdresse: {$data['address']}\nBoligtype: {$houseTypeText}" . (!empty($message) ? "\nBesked: {$message}" : '');
     $mail->AltBody = $altBody;
 
 
     $mail->send();
-    // Log debug info only if sending succeeded (or handle it based on needs)
-    // error_log("PHPMailer Debug Info (Success):\n" . $debugOutput);
+    // Log success and debug info
+    error_log("Mail successfully sent to {$mail->getToAddresses()[0][0]}. PHPMailer Debug Info:\n{$debugOutput}");
 
-    // Send success response (ensure no output before this)
+    // Send success response
     header('Content-Type: application/json');
     echo json_encode(['success' => 'Message has been sent']);
 
 } catch (Exception $e) {
     http_response_code(500);
     // Log the detailed error and the captured debug output server-side
-    error_log("Mailer Error: {$mail->ErrorInfo}\nPHPMailer Debug Info (Error):\n{$debugOutput}");
+    error_log("Mailer Error: {$mail->ErrorInfo}\nPHPMailer Debug Info (Caught Exception):\n{$debugOutput}");
     // Send generic error message to the client
     header('Content-Type: application/json');
     echo json_encode(['error' => "Message could not be sent. Please try again later."]);
