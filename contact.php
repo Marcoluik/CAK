@@ -24,8 +24,14 @@ $mail->Debugoutput = function($str, $level) use (&$debugOutput) {
 };
 
 try {
+    // --- START: Added Request Logging ---
+    error_log("Received request. Method: " . $_SERVER['REQUEST_METHOD']);
+    $rawInput = file_get_contents('php://input');
+    error_log("Raw php://input (" . strlen($rawInput) . " bytes): " . $rawInput);
+    // --- END: Added Request Logging ---
+
     // Get JSON data
-    $data = json_decode(file_get_contents('php://input'), true);
+    $data = json_decode($rawInput, true);
 
     // Basic validation check
     if (empty($data)) {
