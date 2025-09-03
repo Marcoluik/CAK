@@ -4,19 +4,13 @@
 # Enable rewrite engine
 RewriteEngine On
 
-# Force HTTPS and www
-RewriteCond %{HTTPS} off [OR]
+# Force HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Redirect non-www to www
 RewriteCond %{HTTP_HOST} !^www\. [NC]
 RewriteRule ^(.*)$ https://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-
-# Handle trailing slash consistency - add to blog pages
-RewriteCond %{REQUEST_URI} ^/blog/[^/]+$
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ https://www.cakisolering.dk/$1/ [L,R=301]
-
-# Remove trailing slash from root only
-RewriteCond %{REQUEST_URI} ^/$
-RewriteRule ^(.*)$ https://www.cakisolering.dk [L,R=301]
 
 # Serve index.html as default
 DirectoryIndex index.html
