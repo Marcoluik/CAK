@@ -1,0 +1,2919 @@
+[13-Apr-2025 08:33:28 UTC] Contact form error: Received empty JSON data.
+[19-Apr-2025 17:13:28 UTC] Contact form error: Received empty JSON data.
+[19-Apr-2025 20:50:55 UTC] Contact form error: Received empty JSON data.
+[21-Apr-2025 01:24:10 UTC] Contact form error: Received empty JSON data.
+[25-Apr-2025 05:51:46 UTC] Contact form error: Received empty JSON data.
+[30-Apr-2025 07:39:02 UTC] Contact form error: Received empty JSON data.
+[02-May-2025 08:21:50 UTC] Received request. Method: POST
+[02-May-2025 08:21:50 UTC] Raw php://input (175 bytes): {"name":"Marco Kotzebue","email":"marcokot@icloud.com","phone":"53628405","zipcode":"2770","address":"cypres alle 30","house_type":"townhouse","message":"goad","consent":"on"}
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (2): SERVER -> CLIENT: 220 mailout4.pub.mailoutpod2-cph3.one.com ESMTP
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER: EHLO www.cakisolering.dk
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (2): SERVER -> CLIENT: 250-mailout4.pub.mailoutpod2-cph3.one.com
+250-PIPELINING
+250-CHUNKING
+250-SIZE 104857600
+250-AUTH LOGIN PLAIN
+250-ENHANCEDSTATUSCODES
+250 8BITMIME
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER: AUTH LOGIN
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (2): SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER: [credentials hidden]
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (2): SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER: [credentials hidden]
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (2): SERVER -> CLIENT: 235 2.7.0 Ok
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER: MAIL FROM:<kontakt@cakisolering.dk>
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (2): SERVER -> CLIENT: 250 2.1.0 Ok
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER: RCPT TO:<kontakt@cakisolering.dk>
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (2): SERVER -> CLIENT: 250 2.1.5 Ok
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER: DATA
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (2): SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Date: Fri, 2 May 2025 08:21:50 +0000
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER: To: CAK Isolering Inbox <kontakt@cakisolering.dk>
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER: From: CAK Isolering Website <kontakt@cakisolering.dk>
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Subject: Ny Henvendelse fra Hjemmeside: Marco Kotzebue
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Message-ID: <kARTpkCY7jq7P8Icf7JJq8SIkBQ4Sj8zSvmgnH6y8@www.cakisolering.dk>
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER: MIME-Version: 1.0
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:  boundary="b1=_kARTpkCY7jq7P8Icf7JJq8SIkBQ4Sj8zSvmgnH6y8"
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER: 
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER: --b1=_kARTpkCY7jq7P8Icf7JJq8SIkBQ4Sj8zSvmgnH6y8
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER: 
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Ny henvendelse:
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Navn: Marco Kotzebue
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Email: marcokot@icloud.com
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Telefon: 53628405
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Postnummer: 2770
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Adresse: cypres alle 30
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Boligtype: Rækkehus
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Besked: goad
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER: 
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER: --b1=_kARTpkCY7jq7P8Icf7JJq8SIkBQ4Sj8zSvmgnH6y8
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER: 
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER: <!DOCTYPE html>
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:     <html lang="da">
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:     <head>
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:         <meta charset="UTF-8">
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:         <title>Ny Henvendelse</title>
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:         <style>
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             body {
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 font-family: Arial, sans-serif;
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 line-height: 1.6;
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 color: #333333;
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 margin: 0;
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 padding: 20px;
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 background-color: #f4f4f4;
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             }
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             .container {
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 max-width: 600px;
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 margin: 20px auto;
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 background-color: #ffffff;
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 padding: 30px;
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 border-radius: 8px;
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             }
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             h2 {
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 color: #003366; /* Darker blue heading */
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 border-bottom: 2px solid #eeeeee;
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 padding-bottom: 10px;
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 margin-top: 0;
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             }
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             table {
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 width: 100%;
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 border-collapse: collapse;
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 margin-bottom: 20px;
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             }
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             td {
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 text-align: left;
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 padding: 12px;
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 border: 1px solid #dddddd;
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             }
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             .label {
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 font-weight: bold;
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 width: 150px; /* Adjust width if needed */
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 background-color: #f9f9f9; /* Light background for labels */
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 vertical-align: top; /* Align labels top */
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 color: #555555;
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             }
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             .value {
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                  vertical-align: top; /* Align values top */
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             }
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             .message-label {
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 vertical-align: top;
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             }
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             .message-content {
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 white-space: pre-wrap; /* Preserve line breaks in message */
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 word-wrap: break-word;
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             }
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             .footer {
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 margin-top: 20px;
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 text-align: center;
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 font-size: 0.9em;
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 color: #777777;
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             }
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:         </style>
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:     </head>
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:     <body>
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:         <div class="container">
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             <h2>Ny henvendelse modtaget</h2>
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             <table>
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 <tr><td class="label">Navn:</td><td class="value">Marco Kotzebue</td></tr>
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 <tr><td class="label">Email:</td><td class="value">marcokot@icloud.com</td></tr>
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 <tr><td class="label">Telefon:</td><td class="value">53628405</td></tr>
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 <tr><td class="label">Postnummer:</td><td class="value">2770</td></tr>
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 <tr><td class="label">Adresse:</td><td class="value">cypres alle 30</td></tr><tr><td class="label">Boligtype:</td><td class="value">Rækkehus</td></tr><tr><td class="label message-label">Besked:</td><td class="value message-content">goad</td></tr></table>
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             <div class="footer">
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 <p>Denne email blev sendt fra kontaktformularen på cakisolering.dk</p>
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             </div>
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:         </div>
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:     </body>
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER:     </html>
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER: 
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER: 
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER: --b1=_kARTpkCY7jq7P8Icf7JJq8SIkBQ4Sj8zSvmgnH6y8--
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER: 
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER: .
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (2): SERVER -> CLIENT: 250 2.0.0 Ok: queued as 7eaa33d7-272e-11f0-a660-b188fe873c42
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER: QUIT
+
+[02-May-2025 08:21:50 UTC] PHPMailer Debug (2): SERVER -> CLIENT: 221 2.0.0 Bye
+
+[02-May-2025 08:21:50 UTC] Mail successfully sent to kontakt@cakisolering.dk. PHPMailer Debug Info:
+SERVER -> CLIENT: 220 mailout4.pub.mailoutpod2-cph3.one.com ESMTP
+
+CLIENT -> SERVER: EHLO www.cakisolering.dk
+
+SERVER -> CLIENT: 250-mailout4.pub.mailoutpod2-cph3.one.com
+250-PIPELINING
+250-CHUNKING
+250-SIZE 104857600
+250-AUTH LOGIN PLAIN
+250-ENHANCEDSTATUSCODES
+250 8BITMIME
+
+CLIENT -> SERVER: AUTH LOGIN
+
+SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 235 2.7.0 Ok
+
+CLIENT -> SERVER: MAIL FROM:<kontakt@cakisolering.dk>
+
+SERVER -> CLIENT: 250 2.1.0 Ok
+
+CLIENT -> SERVER: RCPT TO:<kontakt@cakisolering.dk>
+
+SERVER -> CLIENT: 250 2.1.5 Ok
+
+CLIENT -> SERVER: DATA
+
+SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+
+CLIENT -> SERVER: Date: Fri, 2 May 2025 08:21:50 +0000
+
+CLIENT -> SERVER: To: CAK Isolering Inbox <kontakt@cakisolering.dk>
+
+CLIENT -> SERVER: From: CAK Isolering Website <kontakt@cakisolering.dk>
+
+CLIENT -> SERVER: Subject: Ny Henvendelse fra Hjemmeside: Marco Kotzebue
+
+CLIENT -> SERVER: Message-ID: <kARTpkCY7jq7P8Icf7JJq8SIkBQ4Sj8zSvmgnH6y8@www.cakisolering.dk>
+
+CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+CLIENT -> SERVER: MIME-Version: 1.0
+
+CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+CLIENT -> SERVER:  boundary="b1=_kARTpkCY7jq7P8Icf7JJq8SIkBQ4Sj8zSvmgnH6y8"
+
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_kARTpkCY7jq7P8Icf7JJq8SIkBQ4Sj8zSvmgnH6y8
+
+CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: Ny henvendelse:
+
+CLIENT -> SERVER: Navn: Marco Kotzebue
+
+CLIENT -> SERVER: Email: marcokot@icloud.com
+
+CLIENT -> SERVER: Telefon: 53628405
+
+CLIENT -> SERVER: Postnummer: 2770
+
+CLIENT -> SERVER: Adresse: cypres alle 30
+
+CLIENT -> SERVER: Boligtype: Rækkehus
+
+CLIENT -> SERVER: Besked: goad
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_kARTpkCY7jq7P8Icf7JJq8SIkBQ4Sj8zSvmgnH6y8
+
+CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: <!DOCTYPE html>
+
+CLIENT -> SERVER:     <html lang="da">
+
+CLIENT -> SERVER:     <head>
+
+CLIENT -> SERVER:         <meta charset="UTF-8">
+
+CLIENT -> SERVER:         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+CLIENT -> SERVER:         <title>Ny Henvendelse</title>
+
+CLIENT -> SERVER:         <style>
+
+CLIENT -> SERVER:             body {
+
+CLIENT -> SERVER:                 font-family: Arial, sans-serif;
+
+CLIENT -> SERVER:                 line-height: 1.6;
+
+CLIENT -> SERVER:                 color: #333333;
+
+CLIENT -> SERVER:                 margin: 0;
+
+CLIENT -> SERVER:                 padding: 20px;
+
+CLIENT -> SERVER:                 background-color: #f4f4f4;
+
+CLIENT -> SERVER:             }
+
+CLIENT -> SERVER:             .container {
+
+CLIENT -> SERVER:                 max-width: 600px;
+
+CLIENT -> SERVER:                 margin: 20px auto;
+
+CLIENT -> SERVER:                 background-color: #ffffff;
+
+CLIENT -> SERVER:                 padding: 30px;
+
+CLIENT -> SERVER:                 border-radius: 8px;
+
+CLIENT -> SERVER:                 box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+
+CLIENT -> SERVER:             }
+
+CLIENT -> SERVER:             h2 {
+
+CLIENT -> SERVER:                 color: #003366; /* Darker blue heading */
+
+CLIENT -> SERVER:                 border-bottom: 2px solid #eeeeee;
+
+CLIENT -> SERVER:                 padding-bottom: 10px;
+
+CLIENT -> SERVER:                 margin-top: 0;
+
+CLIENT -> SERVER:             }
+
+CLIENT -> SERVER:             table {
+
+CLIENT -> SERVER:                 width: 100%;
+
+CLIENT -> SERVER:                 border-collapse: collapse;
+
+CLIENT -> SERVER:                 margin-bottom: 20px;
+
+CLIENT -> SERVER:             }
+
+CLIENT -> SERVER:             td {
+
+CLIENT -> SERVER:                 text-align: left;
+
+CLIENT -> SERVER:                 padding: 12px;
+
+CLIENT -> SERVER:                 border: 1px solid #dddddd;
+
+CLIENT -> SERVER:             }
+
+CLIENT -> SERVER:             .label {
+
+CLIENT -> SERVER:                 font-weight: bold;
+
+CLIENT -> SERVER:                 width: 150px; /* Adjust width if needed */
+
+CLIENT -> SERVER:                 background-color: #f9f9f9; /* Light background for labels */
+
+CLIENT -> SERVER:                 vertical-align: top; /* Align labels top */
+
+CLIENT -> SERVER:                 color: #555555;
+
+CLIENT -> SERVER:             }
+
+CLIENT -> SERVER:             .value {
+
+CLIENT -> SERVER:                  vertical-align: top; /* Align values top */
+
+CLIENT -> SERVER:             }
+
+CLIENT -> SERVER:             .message-label {
+
+CLIENT -> SERVER:                 vertical-align: top;
+
+CLIENT -> SERVER:             }
+
+CLIENT -> SERVER:             .message-content {
+
+CLIENT -> SERVER:                 white-space: pre-wrap; /* Preserve line breaks in message */
+
+CLIENT -> SERVER:                 word-wrap: break-word;
+
+CLIENT -> SERVER:             }
+
+CLIENT -> SERVER:             .footer {
+
+CLIENT -> SERVER:                 margin-top: 20px;
+
+CLIENT -> SERVER:                 text-align: center;
+
+CLIENT -> SERVER:                 font-size: 0.9em;
+
+CLIENT -> SERVER:                 color: #777777;
+
+CLIENT -> SERVER:             }
+
+CLIENT -> SERVER:         </style>
+
+CLIENT -> SERVER:     </head>
+
+CLIENT -> SERVER:     <body>
+
+CLIENT -> SERVER:         <div class="container">
+
+CLIENT -> SERVER:             <h2>Ny henvendelse modtaget</h2>
+
+CLIENT -> SERVER:             <table>
+
+CLIENT -> SERVER:                 <tr><td class="label">Navn:</td><td class="value">Marco Kotzebue</td></tr>
+
+CLIENT -> SERVER:                 <tr><td class="label">Email:</td><td class="value">marcokot@icloud.com</td></tr>
+
+CLIENT -> SERVER:                 <tr><td class="label">Telefon:</td><td class="value">53628405</td></tr>
+
+CLIENT -> SERVER:                 <tr><td class="label">Postnummer:</td><td class="value">2770</td></tr>
+
+CLIENT -> SERVER:                 <tr><td class="label">Adresse:</td><td class="value">cypres alle 30</td></tr><tr><td class="label">Boligtype:</td><td class="value">Rækkehus</td></tr><tr><td class="label message-label">Besked:</td><td class="value message-content">goad</td></tr></table>
+
+CLIENT -> SERVER:             <div class="footer">
+
+CLIENT -> SERVER:                 <p>Denne email blev sendt fra kontaktformularen på cakisolering.dk</p>
+
+CLIENT -> SERVER:             </div>
+
+CLIENT -> SERVER:         </div>
+
+CLIENT -> SERVER:     </body>
+
+CLIENT -> SERVER:     </html>
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_kARTpkCY7jq7P8Icf7JJq8SIkBQ4Sj8zSvmgnH6y8--
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: .
+
+SERVER -> CLIENT: 250 2.0.0 Ok: queued as 7eaa33d7-272e-11f0-a660-b188fe873c42
+
+CLIENT -> SERVER: QUIT
+
+SERVER -> CLIENT: 221 2.0.0 Bye
+
+
+[02-May-2025 08:26:43 UTC] Received request. Method: POST
+[02-May-2025 08:26:43 UTC] Raw php://input (171 bytes): {"name":"Marco Kotzebue","email":"marcokot@icloud.com","phone":"53628405","zipcode":"2770","address":"cypres alle 30","house_type":"townhouse","message":"","consent":"on"}
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (2): SERVER -> CLIENT: 220 mailout2.pub.mailoutpod3-cph3.one.com ESMTP
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER: EHLO www.cakisolering.dk
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (2): SERVER -> CLIENT: 250-mailout2.pub.mailoutpod3-cph3.one.com
+250-PIPELINING
+250-CHUNKING
+250-SIZE 104857600
+250-AUTH LOGIN PLAIN
+250-ENHANCEDSTATUSCODES
+250 8BITMIME
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER: AUTH LOGIN
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (2): SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER: [credentials hidden]
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (2): SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER: [credentials hidden]
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (2): SERVER -> CLIENT: 235 2.7.0 Ok
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER: MAIL FROM:<kontakt@cakisolering.dk>
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (2): SERVER -> CLIENT: 250 2.1.0 Ok
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER: RCPT TO:<kontakt@cakisolering.dk>
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (2): SERVER -> CLIENT: 250 2.1.5 Ok
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER: DATA
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (2): SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Date: Fri, 2 May 2025 08:26:43 +0000
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER: To: CAK Isolering Inbox <kontakt@cakisolering.dk>
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER: From: CAK Isolering Website <kontakt@cakisolering.dk>
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Subject: Ny Henvendelse fra Hjemmeside: Marco Kotzebue
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Message-ID: <KACs3e0GWNZO6WjH4T6QQxJbrLIBPOE2bjvULlShsA@www.cakisolering.dk>
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER: MIME-Version: 1.0
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:  boundary="b1=_KACs3e0GWNZO6WjH4T6QQxJbrLIBPOE2bjvULlShsA"
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER: 
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER: --b1=_KACs3e0GWNZO6WjH4T6QQxJbrLIBPOE2bjvULlShsA
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER: 
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Ny henvendelse:
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Navn: Marco Kotzebue
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Email: marcokot@icloud.com
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Telefon: 53628405
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Postnummer: 2770
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Adresse: cypres alle 30
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Boligtype: Rækkehus
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER: 
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER: --b1=_KACs3e0GWNZO6WjH4T6QQxJbrLIBPOE2bjvULlShsA
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER: 
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER: <!DOCTYPE html>
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:     <html lang="da">
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:     <head>
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:         <meta charset="UTF-8">
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:         <title>Ny Henvendelse</title>
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:         <style>
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             body {
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 font-family: Arial, sans-serif;
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 line-height: 1.6;
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 color: #333333;
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 margin: 0;
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 padding: 20px;
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 background-color: #f4f4f4;
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             }
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             .container {
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 max-width: 600px;
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 margin: 20px auto;
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 background-color: #ffffff;
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 padding: 30px;
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 border-radius: 8px;
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             }
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             h2 {
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 color: #003366; /* Darker blue heading */
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 border-bottom: 2px solid #eeeeee;
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 padding-bottom: 10px;
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 margin-top: 0;
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             }
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             table {
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 width: 100%;
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 border-collapse: collapse;
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 margin-bottom: 20px;
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             }
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             td {
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 text-align: left;
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 padding: 12px;
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 border: 1px solid #dddddd;
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             }
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             .label {
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 font-weight: bold;
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 width: 150px; /* Adjust width if needed */
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 background-color: #f9f9f9; /* Light background for labels */
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 vertical-align: top; /* Align labels top */
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 color: #555555;
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             }
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             .value {
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                  vertical-align: top; /* Align values top */
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             }
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             .message-label {
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 vertical-align: top;
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             }
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             .message-content {
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 white-space: pre-wrap; /* Preserve line breaks in message */
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 word-wrap: break-word;
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             }
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             .footer {
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 margin-top: 20px;
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 text-align: center;
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 font-size: 0.9em;
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 color: #777777;
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             }
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:         </style>
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:     </head>
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:     <body>
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:         <div class="container">
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             <h2>Ny henvendelse modtaget</h2>
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             <table>
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 <tr><td class="label">Navn:</td><td class="value">Marco Kotzebue</td></tr>
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 <tr><td class="label">Email:</td><td class="value">marcokot@icloud.com</td></tr>
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 <tr><td class="label">Telefon:</td><td class="value">53628405</td></tr>
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 <tr><td class="label">Postnummer:</td><td class="value">2770</td></tr>
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 <tr><td class="label">Adresse:</td><td class="value">cypres alle 30</td></tr><tr><td class="label">Boligtype:</td><td class="value">Rækkehus</td></tr></table>
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             <div class="footer">
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 <p>Denne email blev sendt fra kontaktformularen på cakisolering.dk</p>
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             </div>
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:         </div>
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:     </body>
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER:     </html>
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER: 
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER: 
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER: --b1=_KACs3e0GWNZO6WjH4T6QQxJbrLIBPOE2bjvULlShsA--
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER: 
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER: .
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (2): SERVER -> CLIENT: 250 2.0.0 Ok: queued as 2d11de2f-272f-11f0-8f12-1f3486fdaa3c
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (1): CLIENT -> SERVER: QUIT
+
+[02-May-2025 08:26:43 UTC] PHPMailer Debug (2): SERVER -> CLIENT: 221 2.0.0 Bye
+
+[02-May-2025 08:26:43 UTC] Mail successfully sent to kontakt@cakisolering.dk. PHPMailer Debug Info:
+SERVER -> CLIENT: 220 mailout2.pub.mailoutpod3-cph3.one.com ESMTP
+
+CLIENT -> SERVER: EHLO www.cakisolering.dk
+
+SERVER -> CLIENT: 250-mailout2.pub.mailoutpod3-cph3.one.com
+250-PIPELINING
+250-CHUNKING
+250-SIZE 104857600
+250-AUTH LOGIN PLAIN
+250-ENHANCEDSTATUSCODES
+250 8BITMIME
+
+CLIENT -> SERVER: AUTH LOGIN
+
+SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 235 2.7.0 Ok
+
+CLIENT -> SERVER: MAIL FROM:<kontakt@cakisolering.dk>
+
+SERVER -> CLIENT: 250 2.1.0 Ok
+
+CLIENT -> SERVER: RCPT TO:<kontakt@cakisolering.dk>
+
+SERVER -> CLIENT: 250 2.1.5 Ok
+
+CLIENT -> SERVER: DATA
+
+SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+
+CLIENT -> SERVER: Date: Fri, 2 May 2025 08:26:43 +0000
+
+CLIENT -> SERVER: To: CAK Isolering Inbox <kontakt@cakisolering.dk>
+
+CLIENT -> SERVER: From: CAK Isolering Website <kontakt@cakisolering.dk>
+
+CLIENT -> SERVER: Subject: Ny Henvendelse fra Hjemmeside: Marco Kotzebue
+
+CLIENT -> SERVER: Message-ID: <KACs3e0GWNZO6WjH4T6QQxJbrLIBPOE2bjvULlShsA@www.cakisolering.dk>
+
+CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+CLIENT -> SERVER: MIME-Version: 1.0
+
+CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+CLIENT -> SERVER:  boundary="b1=_KACs3e0GWNZO6WjH4T6QQxJbrLIBPOE2bjvULlShsA"
+
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_KACs3e0GWNZO6WjH4T6QQxJbrLIBPOE2bjvULlShsA
+
+CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: Ny henvendelse:
+
+CLIENT -> SERVER: Navn: Marco Kotzebue
+
+CLIENT -> SERVER: Email: marcokot@icloud.com
+
+CLIENT -> SERVER: Telefon: 53628405
+
+CLIENT -> SERVER: Postnummer: 2770
+
+CLIENT -> SERVER: Adresse: cypres alle 30
+
+CLIENT -> SERVER: Boligtype: Rækkehus
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_KACs3e0GWNZO6WjH4T6QQxJbrLIBPOE2bjvULlShsA
+
+CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: <!DOCTYPE html>
+
+CLIENT -> SERVER:     <html lang="da">
+
+CLIENT -> SERVER:     <head>
+
+CLIENT -> SERVER:         <meta charset="UTF-8">
+
+CLIENT -> SERVER:         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+CLIENT -> SERVER:         <title>Ny Henvendelse</title>
+
+CLIENT -> SERVER:         <style>
+
+CLIENT -> SERVER:             body {
+
+CLIENT -> SERVER:                 font-family: Arial, sans-serif;
+
+CLIENT -> SERVER:                 line-height: 1.6;
+
+CLIENT -> SERVER:                 color: #333333;
+
+CLIENT -> SERVER:                 margin: 0;
+
+CLIENT -> SERVER:                 padding: 20px;
+
+CLIENT -> SERVER:                 background-color: #f4f4f4;
+
+CLIENT -> SERVER:             }
+
+CLIENT -> SERVER:             .container {
+
+CLIENT -> SERVER:                 max-width: 600px;
+
+CLIENT -> SERVER:                 margin: 20px auto;
+
+CLIENT -> SERVER:                 background-color: #ffffff;
+
+CLIENT -> SERVER:                 padding: 30px;
+
+CLIENT -> SERVER:                 border-radius: 8px;
+
+CLIENT -> SERVER:                 box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+
+CLIENT -> SERVER:             }
+
+CLIENT -> SERVER:             h2 {
+
+CLIENT -> SERVER:                 color: #003366; /* Darker blue heading */
+
+CLIENT -> SERVER:                 border-bottom: 2px solid #eeeeee;
+
+CLIENT -> SERVER:                 padding-bottom: 10px;
+
+CLIENT -> SERVER:                 margin-top: 0;
+
+CLIENT -> SERVER:             }
+
+CLIENT -> SERVER:             table {
+
+CLIENT -> SERVER:                 width: 100%;
+
+CLIENT -> SERVER:                 border-collapse: collapse;
+
+CLIENT -> SERVER:                 margin-bottom: 20px;
+
+CLIENT -> SERVER:             }
+
+CLIENT -> SERVER:             td {
+
+CLIENT -> SERVER:                 text-align: left;
+
+CLIENT -> SERVER:                 padding: 12px;
+
+CLIENT -> SERVER:                 border: 1px solid #dddddd;
+
+CLIENT -> SERVER:             }
+
+CLIENT -> SERVER:             .label {
+
+CLIENT -> SERVER:                 font-weight: bold;
+
+CLIENT -> SERVER:                 width: 150px; /* Adjust width if needed */
+
+CLIENT -> SERVER:                 background-color: #f9f9f9; /* Light background for labels */
+
+CLIENT -> SERVER:                 vertical-align: top; /* Align labels top */
+
+CLIENT -> SERVER:                 color: #555555;
+
+CLIENT -> SERVER:             }
+
+CLIENT -> SERVER:             .value {
+
+CLIENT -> SERVER:                  vertical-align: top; /* Align values top */
+
+CLIENT -> SERVER:             }
+
+CLIENT -> SERVER:             .message-label {
+
+CLIENT -> SERVER:                 vertical-align: top;
+
+CLIENT -> SERVER:             }
+
+CLIENT -> SERVER:             .message-content {
+
+CLIENT -> SERVER:                 white-space: pre-wrap; /* Preserve line breaks in message */
+
+CLIENT -> SERVER:                 word-wrap: break-word;
+
+CLIENT -> SERVER:             }
+
+CLIENT -> SERVER:             .footer {
+
+CLIENT -> SERVER:                 margin-top: 20px;
+
+CLIENT -> SERVER:                 text-align: center;
+
+CLIENT -> SERVER:                 font-size: 0.9em;
+
+CLIENT -> SERVER:                 color: #777777;
+
+CLIENT -> SERVER:             }
+
+CLIENT -> SERVER:         </style>
+
+CLIENT -> SERVER:     </head>
+
+CLIENT -> SERVER:     <body>
+
+CLIENT -> SERVER:         <div class="container">
+
+CLIENT -> SERVER:             <h2>Ny henvendelse modtaget</h2>
+
+CLIENT -> SERVER:             <table>
+
+CLIENT -> SERVER:                 <tr><td class="label">Navn:</td><td class="value">Marco Kotzebue</td></tr>
+
+CLIENT -> SERVER:                 <tr><td class="label">Email:</td><td class="value">marcokot@icloud.com</td></tr>
+
+CLIENT -> SERVER:                 <tr><td class="label">Telefon:</td><td class="value">53628405</td></tr>
+
+CLIENT -> SERVER:                 <tr><td class="label">Postnummer:</td><td class="value">2770</td></tr>
+
+CLIENT -> SERVER:                 <tr><td class="label">Adresse:</td><td class="value">cypres alle 30</td></tr><tr><td class="label">Boligtype:</td><td class="value">Rækkehus</td></tr></table>
+
+CLIENT -> SERVER:             <div class="footer">
+
+CLIENT -> SERVER:                 <p>Denne email blev sendt fra kontaktformularen på cakisolering.dk</p>
+
+CLIENT -> SERVER:             </div>
+
+CLIENT -> SERVER:         </div>
+
+CLIENT -> SERVER:     </body>
+
+CLIENT -> SERVER:     </html>
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_KACs3e0GWNZO6WjH4T6QQxJbrLIBPOE2bjvULlShsA--
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: .
+
+SERVER -> CLIENT: 250 2.0.0 Ok: queued as 2d11de2f-272f-11f0-8f12-1f3486fdaa3c
+
+CLIENT -> SERVER: QUIT
+
+SERVER -> CLIENT: 221 2.0.0 Bye
+
+
+[03-May-2025 08:05:22 UTC] Received request. Method: GET
+[03-May-2025 08:05:22 UTC] Raw php://input (0 bytes): 
+[03-May-2025 08:05:22 UTC] Contact form error: Received empty JSON data.
+[07-May-2025 16:59:33 UTC] Received request. Method: GET
+[07-May-2025 16:59:33 UTC] Raw php://input (0 bytes): 
+[07-May-2025 16:59:33 UTC] Contact form error: Received empty JSON data.
+[10-May-2025 21:02:48 UTC] Received request. Method: GET
+[10-May-2025 21:02:48 UTC] Raw php://input (0 bytes): 
+[10-May-2025 21:02:48 UTC] Contact form error: Received empty JSON data.
+[20-May-2025 14:22:42 UTC] Received request. Method: GET
+[20-May-2025 14:22:42 UTC] Raw php://input (0 bytes): 
+[20-May-2025 14:22:42 UTC] Contact form error: Received empty JSON data.
+[20-May-2025 14:24:51 UTC] Received request. Method: GET
+[20-May-2025 14:24:51 UTC] Raw php://input (0 bytes): 
+[20-May-2025 14:24:51 UTC] Contact form error: Received empty JSON data.
+[21-May-2025 09:36:35 UTC] Received request. Method: GET
+[21-May-2025 09:36:35 UTC] Raw php://input (0 bytes): 
+[21-May-2025 09:36:35 UTC] Contact form error: Received empty JSON data.
+[30-May-2025 04:46:02 UTC] Received request. Method: GET
+[30-May-2025 04:46:02 UTC] Raw php://input (0 bytes): 
+[30-May-2025 04:46:02 UTC] Contact form error: Received empty JSON data.
+[31-May-2025 21:27:36 UTC] Received request. Method: GET
+[31-May-2025 21:27:36 UTC] Raw php://input (0 bytes): 
+[31-May-2025 21:27:36 UTC] Contact form error: Received empty JSON data.
+[01-Jun-2025 03:05:13 UTC] Received request. Method: GET
+[01-Jun-2025 03:05:13 UTC] Raw php://input (0 bytes): 
+[01-Jun-2025 03:05:13 UTC] Contact form error: Received empty JSON data.
+[07-Jun-2025 20:40:14 UTC] Received request. Method: GET
+[07-Jun-2025 20:40:14 UTC] Raw php://input (0 bytes): 
+[07-Jun-2025 20:40:14 UTC] Contact form error: Received empty JSON data.
+[14-Jun-2025 11:42:57 UTC] Received request. Method: GET
+[14-Jun-2025 11:42:57 UTC] Raw php://input (0 bytes): 
+[14-Jun-2025 11:42:57 UTC] Contact form error: Received empty JSON data.
+[23-Jun-2025 07:32:23 UTC] Received request. Method: GET
+[23-Jun-2025 07:32:23 UTC] Raw php://input (0 bytes): 
+[23-Jun-2025 07:32:23 UTC] Contact form error: Received empty JSON data.
+[27-Jun-2025 13:14:10 UTC] Received request. Method: GET
+[27-Jun-2025 13:14:10 UTC] Raw php://input (0 bytes): 
+[27-Jun-2025 13:14:10 UTC] Contact form error: Received empty JSON data.
+[30-Jun-2025 17:11:56 UTC] Received request. Method: GET
+[30-Jun-2025 17:11:56 UTC] Raw php://input (0 bytes): 
+[30-Jun-2025 17:11:56 UTC] Contact form error: Received empty JSON data.
+[03-Jul-2025 15:05:52 UTC] Received request. Method: POST
+[03-Jul-2025 15:05:52 UTC] Raw php://input (190 bytes): name=slsnxmqgew&email=mtygkygk%40testform.xyz&phone=%2B1-834-590-2632&zipcode=xrpegnqetn&address=xsyrhzmton&house_type=V%C3%A6lg%20boligtype&message=jkrjfthjyznjxrrnmlewlnmdutprej&consent=on
+[03-Jul-2025 15:05:52 UTC] Contact form error: Received empty JSON data.
+[03-Jul-2025 15:05:53 UTC] Received request. Method: POST
+[03-Jul-2025 15:05:53 UTC] Raw php://input (190 bytes): name=xlgmuivmpn&email=gjzsjirx%40testform.xyz&phone=%2B1-009-666-4490&zipcode=rgxzgkhury&address=grkosmzpdj&house_type=V%C3%A6lg%20boligtype&message=fhzioqwymrzxneqpspqqwqljujinlo&consent=on
+[03-Jul-2025 15:05:53 UTC] Contact form error: Received empty JSON data.
+[03-Jul-2025 15:05:54 UTC] Received request. Method: POST
+[03-Jul-2025 15:05:54 UTC] Raw php://input (190 bytes): name=empsmhedlp&email=fhzjemqj%40testform.xyz&phone=%2B1-722-810-2777&zipcode=xhivrzujwn&address=vpphydtjdm&house_type=V%C3%A6lg%20boligtype&message=rijxosgnrgdeitujgplsdwxjillero&consent=on
+[03-Jul-2025 15:05:54 UTC] Contact form error: Received empty JSON data.
+[04-Jul-2025 10:02:17 UTC] Received request. Method: GET
+[04-Jul-2025 10:02:17 UTC] Raw php://input (0 bytes): 
+[04-Jul-2025 10:02:17 UTC] Contact form error: Received empty JSON data.
+[05-Jul-2025 12:22:38 UTC] Received request. Method: GET
+[05-Jul-2025 12:22:38 UTC] Raw php://input (0 bytes): 
+[05-Jul-2025 12:22:38 UTC] Contact form error: Received empty JSON data.
+[06-Jul-2025 02:21:15 UTC] Received request. Method: GET
+[06-Jul-2025 02:21:15 UTC] Raw php://input (0 bytes): 
+[06-Jul-2025 02:21:15 UTC] Contact form error: Received empty JSON data.
+[08-Jul-2025 16:56:34 UTC] Received request. Method: GET
+[08-Jul-2025 16:56:34 UTC] Raw php://input (0 bytes): 
+[08-Jul-2025 16:56:34 UTC] Contact form error: Received empty JSON data.
+[10-Jul-2025 17:10:24 UTC] Received request. Method: GET
+[10-Jul-2025 17:10:24 UTC] Raw php://input (0 bytes): 
+[10-Jul-2025 17:10:24 UTC] Contact form error: Received empty JSON data.
+[15-Jul-2025 22:03:24 UTC] Received request. Method: GET
+[15-Jul-2025 22:03:24 UTC] Raw php://input (0 bytes): 
+[15-Jul-2025 22:03:24 UTC] Contact form error: Received empty JSON data.
+[18-Jul-2025 05:14:34 UTC] Received request. Method: GET
+[18-Jul-2025 05:14:34 UTC] Raw php://input (0 bytes): 
+[18-Jul-2025 05:14:34 UTC] Contact form error: Received empty JSON data.
+[20-Jul-2025 19:26:44 UTC] Received request. Method: GET
+[20-Jul-2025 19:26:44 UTC] Raw php://input (0 bytes): 
+[20-Jul-2025 19:26:44 UTC] Contact form error: Received empty JSON data.
+[25-Jul-2025 16:06:07 UTC] Received request. Method: GET
+[25-Jul-2025 16:06:07 UTC] Raw php://input (0 bytes): 
+[25-Jul-2025 16:06:07 UTC] Contact form error: Received empty JSON data.
+[28-Jul-2025 14:08:59 UTC] Received request. Method: GET
+[28-Jul-2025 14:08:59 UTC] Raw php://input (0 bytes): 
+[28-Jul-2025 14:08:59 UTC] Contact form error: Received empty JSON data.
+[28-Jul-2025 15:01:33 UTC] Received request. Method: GET
+[28-Jul-2025 15:01:33 UTC] Raw php://input (0 bytes): 
+[28-Jul-2025 15:01:33 UTC] Contact form error: Received empty JSON data.
+[31-Jul-2025 17:32:35 UTC] Received request. Method: GET
+[31-Jul-2025 17:32:35 UTC] Raw php://input (0 bytes): 
+[31-Jul-2025 17:32:35 UTC] Contact form error: Received empty JSON data.
+[31-Jul-2025 22:17:07 UTC] Received request. Method: GET
+[31-Jul-2025 22:17:07 UTC] Raw php://input (0 bytes): 
+[31-Jul-2025 22:17:07 UTC] Contact form error: Received empty JSON data.
+[01-Aug-2025 04:19:25 UTC] Received request. Method: GET
+[01-Aug-2025 04:19:25 UTC] Raw php://input (0 bytes): 
+[01-Aug-2025 04:19:25 UTC] Contact form error: Received empty JSON data.
+[01-Aug-2025 13:49:42 UTC] Received request. Method: GET
+[01-Aug-2025 13:49:42 UTC] Raw php://input (0 bytes): 
+[01-Aug-2025 13:49:42 UTC] Contact form error: Received empty JSON data.
+[01-Aug-2025 14:13:04 UTC] Received request. Method: GET
+[01-Aug-2025 14:13:04 UTC] Raw php://input (0 bytes): 
+[01-Aug-2025 14:13:04 UTC] Contact form error: Received empty JSON data.
+[01-Aug-2025 18:51:01 UTC] Received request. Method: GET
+[01-Aug-2025 18:51:01 UTC] Raw php://input (0 bytes): 
+[01-Aug-2025 18:51:01 UTC] Contact form error: Received empty JSON data.
+[02-Aug-2025 10:33:05 UTC] Received request. Method: GET
+[02-Aug-2025 10:33:05 UTC] Raw php://input (0 bytes): 
+[02-Aug-2025 10:33:05 UTC] Contact form error: Received empty JSON data.
+[02-Aug-2025 11:41:34 UTC] Received request. Method: GET
+[02-Aug-2025 11:41:34 UTC] Raw php://input (0 bytes): 
+[02-Aug-2025 11:41:34 UTC] Contact form error: Received empty JSON data.
+[02-Aug-2025 22:48:07 UTC] Received request. Method: GET
+[02-Aug-2025 22:48:07 UTC] Raw php://input (0 bytes): 
+[02-Aug-2025 22:48:07 UTC] Contact form error: Received empty JSON data.
+[03-Aug-2025 07:07:51 UTC] Received request. Method: GET
+[03-Aug-2025 07:07:51 UTC] Raw php://input (0 bytes): 
+[03-Aug-2025 07:07:51 UTC] Contact form error: Received empty JSON data.
+[04-Aug-2025 04:20:56 UTC] Received request. Method: GET
+[04-Aug-2025 04:20:56 UTC] Raw php://input (0 bytes): 
+[04-Aug-2025 04:20:56 UTC] Contact form error: Received empty JSON data.
+[04-Aug-2025 12:56:38 UTC] Received request. Method: GET
+[04-Aug-2025 12:56:38 UTC] Raw php://input (0 bytes): 
+[04-Aug-2025 12:56:38 UTC] Contact form error: Received empty JSON data.
+[05-Aug-2025 00:47:41 UTC] Received request. Method: GET
+[05-Aug-2025 00:47:41 UTC] Raw php://input (0 bytes): 
+[05-Aug-2025 00:47:41 UTC] Contact form error: Received empty JSON data.
+[05-Aug-2025 09:45:14 UTC] Received request. Method: GET
+[05-Aug-2025 09:45:14 UTC] Raw php://input (0 bytes): 
+[05-Aug-2025 09:45:14 UTC] Contact form error: Received empty JSON data.
+[05-Aug-2025 19:46:16 UTC] Received request. Method: GET
+[05-Aug-2025 19:46:16 UTC] Raw php://input (0 bytes): 
+[05-Aug-2025 19:46:16 UTC] Contact form error: Received empty JSON data.
+[06-Aug-2025 13:44:44 UTC] Received request. Method: GET
+[06-Aug-2025 13:44:44 UTC] Raw php://input (0 bytes): 
+[06-Aug-2025 13:44:44 UTC] Contact form error: Received empty JSON data.
+[07-Aug-2025 04:23:24 UTC] Received request. Method: GET
+[07-Aug-2025 04:23:24 UTC] Raw php://input (0 bytes): 
+[07-Aug-2025 04:23:24 UTC] Contact form error: Received empty JSON data.
+[08-Aug-2025 09:55:39 UTC] Received request. Method: GET
+[08-Aug-2025 09:55:39 UTC] Raw php://input (0 bytes): 
+[08-Aug-2025 09:55:39 UTC] Contact form error: Received empty JSON data.
+[08-Aug-2025 17:10:44 UTC] Received request. Method: GET
+[08-Aug-2025 17:10:44 UTC] Raw php://input (0 bytes): 
+[08-Aug-2025 17:10:44 UTC] Contact form error: Received empty JSON data.
+[13-Aug-2025 12:24:30 UTC] Received request. Method: GET
+[13-Aug-2025 12:24:30 UTC] Raw php://input (0 bytes): 
+[13-Aug-2025 12:24:30 UTC] Contact form error: Received empty JSON data.
+[21-Aug-2025 21:59:12 UTC] Received request. Method: GET
+[21-Aug-2025 21:59:12 UTC] Raw php://input (0 bytes): 
+[21-Aug-2025 21:59:12 UTC] Contact form error: Received empty JSON data.
+[22-Aug-2025 02:46:14 UTC] Received request. Method: GET
+[22-Aug-2025 02:46:14 UTC] Raw php://input (0 bytes): 
+[22-Aug-2025 02:46:14 UTC] Contact form error: Received empty JSON data.
+[22-Aug-2025 13:00:59 UTC] Received request. Method: GET
+[22-Aug-2025 13:00:59 UTC] Raw php://input (0 bytes): 
+[22-Aug-2025 13:00:59 UTC] Contact form error: Received empty JSON data.
+[22-Aug-2025 17:12:06 UTC] Received request. Method: GET
+[22-Aug-2025 17:12:06 UTC] Raw php://input (0 bytes): 
+[22-Aug-2025 17:12:06 UTC] Contact form error: Received empty JSON data.
+[23-Aug-2025 21:56:48 UTC] Received request. Method: GET
+[23-Aug-2025 21:56:48 UTC] Raw php://input (0 bytes): 
+[23-Aug-2025 21:56:48 UTC] Contact form error: Received empty JSON data.
+[24-Aug-2025 05:34:11 UTC] Received request. Method: GET
+[24-Aug-2025 05:34:11 UTC] Raw php://input (0 bytes): 
+[24-Aug-2025 05:34:11 UTC] Contact form error: Received empty JSON data.
+[24-Aug-2025 13:21:05 UTC] Received request. Method: GET
+[24-Aug-2025 13:21:05 UTC] Raw php://input (0 bytes): 
+[24-Aug-2025 13:21:05 UTC] Contact form error: Received empty JSON data.
+[26-Aug-2025 14:54:41 UTC] Received request. Method: GET
+[26-Aug-2025 14:54:41 UTC] Raw php://input (0 bytes): 
+[26-Aug-2025 14:54:41 UTC] Contact form error: Received empty JSON data.
+[27-Aug-2025 19:32:20 UTC] Received request. Method: GET
+[27-Aug-2025 19:32:20 UTC] Raw php://input (0 bytes): 
+[27-Aug-2025 19:32:20 UTC] Contact form error: Received empty JSON data.
+[27-Aug-2025 19:53:19 UTC] Received request. Method: GET
+[27-Aug-2025 19:53:19 UTC] Raw php://input (0 bytes): 
+[27-Aug-2025 19:53:19 UTC] Contact form error: Received empty JSON data.
+[27-Aug-2025 21:16:47 UTC] Received request. Method: GET
+[27-Aug-2025 21:16:47 UTC] Raw php://input (0 bytes): 
+[27-Aug-2025 21:16:47 UTC] Contact form error: Received empty JSON data.
+[27-Aug-2025 22:54:14 UTC] Received request. Method: GET
+[27-Aug-2025 22:54:14 UTC] Raw php://input (0 bytes): 
+[27-Aug-2025 22:54:14 UTC] Contact form error: Received empty JSON data.
+[27-Aug-2025 23:00:33 UTC] Received request. Method: GET
+[27-Aug-2025 23:00:33 UTC] Raw php://input (0 bytes): 
+[27-Aug-2025 23:00:33 UTC] Contact form error: Received empty JSON data.
+[28-Aug-2025 05:22:56 UTC] Received request. Method: GET
+[28-Aug-2025 05:22:56 UTC] Raw php://input (0 bytes): 
+[28-Aug-2025 05:22:56 UTC] Contact form error: Received empty JSON data.
+[28-Aug-2025 08:09:23 UTC] Received request. Method: GET
+[28-Aug-2025 08:09:23 UTC] Raw php://input (0 bytes): 
+[28-Aug-2025 08:09:23 UTC] Contact form error: Received empty JSON data.
+[29-Aug-2025 08:26:35 UTC] Received request. Method: GET
+[29-Aug-2025 08:26:35 UTC] Raw php://input (0 bytes): 
+[29-Aug-2025 08:26:35 UTC] Contact form error: Received empty JSON data.
+[30-Aug-2025 17:32:41 UTC] Received request. Method: GET
+[30-Aug-2025 17:32:41 UTC] Raw php://input (0 bytes): 
+[30-Aug-2025 17:32:41 UTC] Contact form error: Received empty JSON data.
+[31-Aug-2025 01:50:51 UTC] Received request. Method: GET
+[31-Aug-2025 01:50:51 UTC] Raw php://input (0 bytes): 
+[31-Aug-2025 01:50:51 UTC] Contact form error: Received empty JSON data.
+[31-Aug-2025 03:55:22 UTC] Received request. Method: GET
+[31-Aug-2025 03:55:22 UTC] Raw php://input (0 bytes): 
+[31-Aug-2025 03:55:22 UTC] Contact form error: Received empty JSON data.
+[01-Sep-2025 07:27:36 UTC] Received request. Method: GET
+[01-Sep-2025 07:27:36 UTC] Raw php://input (0 bytes): 
+[01-Sep-2025 07:27:36 UTC] Contact form error: Received empty JSON data.
+[01-Sep-2025 08:17:11 UTC] Received request. Method: GET
+[01-Sep-2025 08:17:11 UTC] Raw php://input (0 bytes): 
+[01-Sep-2025 08:17:11 UTC] Contact form error: Received empty JSON data.
+[01-Sep-2025 10:35:48 UTC] Received request. Method: GET
+[01-Sep-2025 10:35:48 UTC] Raw php://input (0 bytes): 
+[01-Sep-2025 10:35:48 UTC] Contact form error: Received empty JSON data.
+[01-Sep-2025 15:24:55 UTC] Received request. Method: GET
+[01-Sep-2025 15:24:55 UTC] Raw php://input (0 bytes): 
+[01-Sep-2025 15:24:55 UTC] Contact form error: Received empty JSON data.
+[02-Sep-2025 16:03:49 UTC] Received request. Method: POST
+[02-Sep-2025 16:03:49 UTC] Raw php://input (233 bytes): {"name":"Mr Owain James","email":"owainjames17@hotmail.co.uk","phone":"34486313","zipcode":"4000","address":"Maribovej 19","house_type":"villa","message":"135 kvm hus\n\n300mm isolering\n\n10m gang bro\n\nVindplader ","consent":"on"}
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (2): SERVER -> CLIENT: 220 mailout4.pub.mailoutpod2-cph3.one.com ESMTP
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: EHLO www.cakisolering.dk
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (2): SERVER -> CLIENT: 250-mailout4.pub.mailoutpod2-cph3.one.com
+250-PIPELINING
+250-CHUNKING
+250-SIZE 104857600
+250-AUTH LOGIN PLAIN
+250-ENHANCEDSTATUSCODES
+250 8BITMIME
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: AUTH LOGIN
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (2): SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: [credentials hidden]
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (2): SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: [credentials hidden]
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (2): SERVER -> CLIENT: 235 2.7.0 Ok
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: MAIL FROM:<kontakt@cakisolering.dk>
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (2): SERVER -> CLIENT: 250 2.1.0 Ok
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: RCPT TO:<kontakt@cakisolering.dk>
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (2): SERVER -> CLIENT: 250 2.1.5 Ok
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: DATA
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (2): SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Date: Tue, 2 Sep 2025 16:03:49 +0000
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: To: CAK Isolering Inbox <kontakt@cakisolering.dk>
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: From: CAK Isolering Website <kontakt@cakisolering.dk>
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Subject: Ny Henvendelse fra Hjemmeside: Mr Owain James
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Message-ID: <cG6P7IIz1HbyUtP5DjT2FHoOwmvQgELftUUhQMyfNw@www.cakisolering.dk>
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: MIME-Version: 1.0
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:  boundary="b1=_cG6P7IIz1HbyUtP5DjT2FHoOwmvQgELftUUhQMyfNw"
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: 
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: --b1=_cG6P7IIz1HbyUtP5DjT2FHoOwmvQgELftUUhQMyfNw
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: 
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Ny henvendelse:
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Navn: Mr Owain James
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Email: owainjames17@hotmail.co.uk
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Telefon: 34486313
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Postnummer: 4000
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Adresse: Maribovej 19
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Boligtype: Villa/Parcelhus
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Besked: 135 kvm hus
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: 
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: 300mm isolering
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: 
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: 10m gang bro
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: 
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Vindplader
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: 
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: --b1=_cG6P7IIz1HbyUtP5DjT2FHoOwmvQgELftUUhQMyfNw
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: 
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: <!DOCTYPE html>
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:     <html lang="da">
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:     <head>
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:         <meta charset="UTF-8">
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:         <title>Ny Henvendelse</title>
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:         <style>
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             body {
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 font-family: Arial, sans-serif;
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 line-height: 1.6;
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 color: #333333;
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 margin: 0;
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 padding: 20px;
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 background-color: #f4f4f4;
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             }
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             .container {
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 max-width: 600px;
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 margin: 20px auto;
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 background-color: #ffffff;
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 padding: 30px;
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 border-radius: 8px;
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             }
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             h2 {
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 color: #003366; /* Darker blue heading */
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 border-bottom: 2px solid #eeeeee;
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 padding-bottom: 10px;
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 margin-top: 0;
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             }
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             table {
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 width: 100%;
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 border-collapse: collapse;
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 margin-bottom: 20px;
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             }
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             td {
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 text-align: left;
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 padding: 12px;
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 border: 1px solid #dddddd;
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             }
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             .label {
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 font-weight: bold;
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 width: 150px; /* Adjust width if needed */
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 background-color: #f9f9f9; /* Light background for labels */
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 vertical-align: top; /* Align labels top */
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 color: #555555;
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             }
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             .value {
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                  vertical-align: top; /* Align values top */
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             }
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             .message-label {
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 vertical-align: top;
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             }
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             .message-content {
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 white-space: pre-wrap; /* Preserve line breaks in message */
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 word-wrap: break-word;
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             }
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             .footer {
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 margin-top: 20px;
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 text-align: center;
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 font-size: 0.9em;
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 color: #777777;
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             }
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:         </style>
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:     </head>
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:     <body>
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:         <div class="container">
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             <h2>Ny henvendelse modtaget</h2>
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             <table>
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 <tr><td class="label">Navn:</td><td class="value">Mr Owain James</td></tr>
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 <tr><td class="label">Email:</td><td class="value">owainjames17@hotmail.co.uk</td></tr>
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 <tr><td class="label">Telefon:</td><td class="value">34486313</td></tr>
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 <tr><td class="label">Postnummer:</td><td class="value">4000</td></tr>
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 <tr><td class="label">Adresse:</td><td class="value">Maribovej 19</td></tr><tr><td class="label">Boligtype:</td><td class="value">Villa/Parcelhus</td></tr><tr><td class="label message-label">Besked:</td><td class="value message-content">135 kvm hus<br />
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: <br />
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: 300mm isolering<br />
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: <br />
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: 10m gang bro<br />
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: <br />
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Vindplader</td></tr></table>
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             <div class="footer">
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 <p>Denne email blev sendt fra kontaktformularen på cakisolering.dk</p>
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             </div>
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:         </div>
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:     </body>
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:     </html>
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: 
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: 
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: --b1=_cG6P7IIz1HbyUtP5DjT2FHoOwmvQgELftUUhQMyfNw--
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: 
+
+[02-Sep-2025 16:03:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: .
+
+[02-Sep-2025 16:03:50 UTC] PHPMailer Debug (2): SERVER -> CLIENT: 250 2.0.0 Ok: queued as 6915eb37-8816-11f0-9ddf-d94b655c9a50
+
+[02-Sep-2025 16:03:50 UTC] PHPMailer Debug (1): CLIENT -> SERVER: QUIT
+
+[02-Sep-2025 16:03:50 UTC] PHPMailer Debug (2): SERVER -> CLIENT: 221 2.0.0 Bye
+
+[02-Sep-2025 16:03:50 UTC] Mail successfully sent to kontakt@cakisolering.dk. PHPMailer Debug Info:
+SERVER -> CLIENT: 220 mailout4.pub.mailoutpod2-cph3.one.com ESMTP
+
+CLIENT -> SERVER: EHLO www.cakisolering.dk
+
+SERVER -> CLIENT: 250-mailout4.pub.mailoutpod2-cph3.one.com
+250-PIPELINING
+250-CHUNKING
+250-SIZE 104857600
+250-AUTH LOGIN PLAIN
+250-ENHANCEDSTATUSCODES
+250 8BITMIME
+
+CLIENT -> SERVER: AUTH LOGIN
+
+SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 235 2.7.0 Ok
+
+CLIENT -> SERVER: MAIL FROM:<kontakt@cakisolering.dk>
+
+SERVER -> CLIENT: 250 2.1.0 Ok
+
+CLIENT -> SERVER: RCPT TO:<kontakt@cakisolering.dk>
+
+SERVER -> CLIENT: 250 2.1.5 Ok
+
+CLIENT -> SERVER: DATA
+
+SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+
+CLIENT -> SERVER: Date: Tue, 2 Sep 2025 16:03:49 +0000
+
+CLIENT -> SERVER: To: CAK Isolering Inbox <kontakt@cakisolering.dk>
+
+CLIENT -> SERVER: From: CAK Isolering Website <kontakt@cakisolering.dk>
+
+CLIENT -> SERVER: Subject: Ny Henvendelse fra Hjemmeside: Mr Owain James
+
+CLIENT -> SERVER: Message-ID: <cG6P7IIz1HbyUtP5DjT2FHoOwmvQgELftUUhQMyfNw@www.cakisolering.dk>
+
+CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+CLIENT -> SERVER: MIME-Version: 1.0
+
+CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+CLIENT -> SERVER:  boundary="b1=_cG6P7IIz1HbyUtP5DjT2FHoOwmvQgELftUUhQMyfNw"
+
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_cG6P7IIz1HbyUtP5DjT2FHoOwmvQgELftUUhQMyfNw
+
+CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: Ny henvendelse:
+
+CLIENT -> SERVER: Navn: Mr Owain James
+
+CLIENT -> SERVER: Email: owainjames17@hotmail.co.uk
+
+CLIENT -> SERVER: Telefon: 34486313
+
+CLIENT -> SERVER: Postnummer: 4000
+
+CLIENT -> SERVER: Adresse: Maribovej 19
+
+CLIENT -> SERVER: Boligtype: Villa/Parcelhus
+
+CLIENT -> SERVER: Besked: 135 kvm hus
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: 300mm isolering
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: 10m gang bro
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: Vindplader
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_cG6P7IIz1HbyUtP5DjT2FHoOwmvQgELftUUhQMyfNw
+
+CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: <!DOCTYPE html>
+
+CLIENT -> SERVER:     <html lang="da">
+
+CLIENT -> SERVER:     <head>
+
+CLIENT -> SERVER:         <meta charset="UTF-8">
+
+CLIENT -> SERVER:         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+CLIENT -> SERVER:         <title>Ny Henvendelse</title>
+
+CLIENT -> SERVER:         <style>
+
+CLIENT -> SERVER:             body {
+
+CLIENT -> SERVER:                 font-family: Arial, sans-serif;
+
+CLIENT -> SERVER:                 line-height: 1.6;
+
+CLIENT -> SERVER:                 color: #333333;
+
+CLIENT -> SERVER:                 margin: 0;
+
+CLIENT -> SERVER:                 padding: 20px;
+
+CLIENT -> SERVER:                 background-color: #f4f4f4;
+
+CLIENT -> SERVER:             }
+
+CLIENT -> SERVER:             .container {
+
+CLIENT -> SERVER:                 max-width: 600px;
+
+CLIENT -> SERVER:                 margin: 20px auto;
+
+CLIENT -> SERVER:                 background-color: #ffffff;
+
+CLIENT -> SERVER:                 padding: 30px;
+
+CLIENT -> SERVER:                 border-radius: 8px;
+
+CLIENT -> SERVER:                 box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+
+CLIENT -> SERVER:             }
+
+CLIENT -> SERVER:             h2 {
+
+CLIENT -> SERVER:                 color: #003366; /* Darker blue heading */
+
+CLIENT -> SERVER:                 border-bottom: 2px solid #eeeeee;
+
+CLIENT -> SERVER:                 padding-bottom: 10px;
+
+CLIENT -> SERVER:                 margin-top: 0;
+
+CLIENT -> SERVER:             }
+
+CLIENT -> SERVER:             table {
+
+CLIENT -> SERVER:                 width: 100%;
+
+CLIENT -> SERVER:                 border-collapse: collapse;
+
+CLIENT -> SERVER:                 margin-bottom: 20px;
+
+CLIENT -> SERVER:             }
+
+CLIENT -> SERVER:             td {
+
+CLIENT -> SERVER:                 text-align: left;
+
+CLIENT -> SERVER:                 padding: 12px;
+
+CLIENT -> SERVER:                 border: 1px solid #dddddd;
+
+CLIENT -> SERVER:             }
+
+CLIENT -> SERVER:             .label {
+
+CLIENT -> SERVER:                 font-weight: bold;
+
+CLIENT -> SERVER:                 width: 150px; /* Adjust width if needed */
+
+CLIENT -> SERVER:                 background-color: #f9f9f9; /* Light background for labels */
+
+CLIENT -> SERVER:                 vertical-align: top; /* Align labels top */
+
+CLIENT -> SERVER:                 color: #555555;
+
+CLIENT -> SERVER:             }
+
+CLIENT -> SERVER:             .value {
+
+CLIENT -> SERVER:                  vertical-align: top; /* Align values top */
+
+CLIENT -> SERVER:             }
+
+CLIENT -> SERVER:             .message-label {
+
+CLIENT -> SERVER:                 vertical-align: top;
+
+CLIENT -> SERVER:             }
+
+CLIENT -> SERVER:             .message-content {
+
+CLIENT -> SERVER:                 white-space: pre-wrap; /* Preserve line breaks in message */
+
+CLIENT -> SERVER:                 word-wrap: break-word;
+
+CLIENT -> SERVER:             }
+
+CLIENT -> SERVER:             .footer {
+
+CLIENT -> SERVER:                 margin-top: 20px;
+
+CLIENT -> SERVER:                 text-align: center;
+
+CLIENT -> SERVER:                 font-size: 0.9em;
+
+CLIENT -> SERVER:                 color: #777777;
+
+CLIENT -> SERVER:             }
+
+CLIENT -> SERVER:         </style>
+
+CLIENT -> SERVER:     </head>
+
+CLIENT -> SERVER:     <body>
+
+CLIENT -> SERVER:         <div class="container">
+
+CLIENT -> SERVER:             <h2>Ny henvendelse modtaget</h2>
+
+CLIENT -> SERVER:             <table>
+
+CLIENT -> SERVER:                 <tr><td class="label">Navn:</td><td class="value">Mr Owain James</td></tr>
+
+CLIENT -> SERVER:                 <tr><td class="label">Email:</td><td class="value">owainjames17@hotmail.co.uk</td></tr>
+
+CLIENT -> SERVER:                 <tr><td class="label">Telefon:</td><td class="value">34486313</td></tr>
+
+CLIENT -> SERVER:                 <tr><td class="label">Postnummer:</td><td class="value">4000</td></tr>
+
+CLIENT -> SERVER:                 <tr><td class="label">Adresse:</td><td class="value">Maribovej 19</td></tr><tr><td class="label">Boligtype:</td><td class="value">Villa/Parcelhus</td></tr><tr><td class="label message-label">Besked:</td><td class="value message-content">135 kvm hus<br />
+
+CLIENT -> SERVER: <br />
+
+CLIENT -> SERVER: 300mm isolering<br />
+
+CLIENT -> SERVER: <br />
+
+CLIENT -> SERVER: 10m gang bro<br />
+
+CLIENT -> SERVER: <br />
+
+CLIENT -> SERVER: Vindplader</td></tr></table>
+
+CLIENT -> SERVER:             <div class="footer">
+
+CLIENT -> SERVER:                 <p>Denne email blev sendt fra kontaktformularen på cakisolering.dk</p>
+
+CLIENT -> SERVER:             </div>
+
+CLIENT -> SERVER:         </div>
+
+CLIENT -> SERVER:     </body>
+
+CLIENT -> SERVER:     </html>
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_cG6P7IIz1HbyUtP5DjT2FHoOwmvQgELftUUhQMyfNw--
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: .
+
+SERVER -> CLIENT: 250 2.0.0 Ok: queued as 6915eb37-8816-11f0-9ddf-d94b655c9a50
+
+CLIENT -> SERVER: QUIT
+
+SERVER -> CLIENT: 221 2.0.0 Bye
+
+
+[03-Sep-2025 04:26:45 UTC] Received request. Method: POST
+[03-Sep-2025 04:26:45 UTC] Raw php://input (160 bytes): {"name":"Monica","email":"gimmermbc@gmail.com","phone":"26179785","zipcode":"2791","address":"Haarlem Alle 37","house_type":"villa","message":"","consent":"on"}
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (2): SERVER -> CLIENT: 220 mailout1.pub.mailoutpod2-cph3.one.com ESMTP
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER: EHLO cakisolering.dk
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (2): SERVER -> CLIENT: 250-mailout1.pub.mailoutpod2-cph3.one.com
+250-PIPELINING
+250-CHUNKING
+250-SIZE 104857600
+250-AUTH LOGIN PLAIN
+250-ENHANCEDSTATUSCODES
+250 8BITMIME
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER: AUTH LOGIN
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (2): SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER: [credentials hidden]
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (2): SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER: [credentials hidden]
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (2): SERVER -> CLIENT: 235 2.7.0 Ok
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER: MAIL FROM:<kontakt@cakisolering.dk>
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (2): SERVER -> CLIENT: 250 2.1.0 Ok
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER: RCPT TO:<kontakt@cakisolering.dk>
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (2): SERVER -> CLIENT: 250 2.1.5 Ok
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER: DATA
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (2): SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Date: Wed, 3 Sep 2025 04:26:45 +0000
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER: To: CAK Isolering Inbox <kontakt@cakisolering.dk>
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER: From: CAK Isolering Website <kontakt@cakisolering.dk>
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Subject: Ny Henvendelse fra Hjemmeside: Monica
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Message-ID: <bYrW2tuvqQdUPyt6ws7rVpDjMBi5w5wmJXLaQNjSmQ0@cakisolering.dk>
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER: MIME-Version: 1.0
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:  boundary="b1=_bYrW2tuvqQdUPyt6ws7rVpDjMBi5w5wmJXLaQNjSmQ0"
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER: 
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER: --b1=_bYrW2tuvqQdUPyt6ws7rVpDjMBi5w5wmJXLaQNjSmQ0
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER: 
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Ny henvendelse:
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Navn: Monica
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Email: gimmermbc@gmail.com
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Telefon: 26179785
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Postnummer: 2791
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Adresse: Haarlem Alle 37
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Boligtype: Villa/Parcelhus
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER: 
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER: --b1=_bYrW2tuvqQdUPyt6ws7rVpDjMBi5w5wmJXLaQNjSmQ0
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER: 
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER: <!DOCTYPE html>
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:     <html lang="da">
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:     <head>
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:         <meta charset="UTF-8">
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:         <title>Ny Henvendelse</title>
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:         <style>
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             body {
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 font-family: Arial, sans-serif;
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 line-height: 1.6;
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 color: #333333;
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 margin: 0;
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 padding: 20px;
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 background-color: #f4f4f4;
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             }
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             .container {
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 max-width: 600px;
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 margin: 20px auto;
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 background-color: #ffffff;
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 padding: 30px;
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 border-radius: 8px;
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             }
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             h2 {
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 color: #003366; /* Darker blue heading */
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 border-bottom: 2px solid #eeeeee;
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 padding-bottom: 10px;
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 margin-top: 0;
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             }
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             table {
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 width: 100%;
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 border-collapse: collapse;
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 margin-bottom: 20px;
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             }
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             td {
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 text-align: left;
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 padding: 12px;
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 border: 1px solid #dddddd;
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             }
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             .label {
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 font-weight: bold;
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 width: 150px; /* Adjust width if needed */
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 background-color: #f9f9f9; /* Light background for labels */
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 vertical-align: top; /* Align labels top */
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 color: #555555;
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             }
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             .value {
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                  vertical-align: top; /* Align values top */
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             }
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             .message-label {
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 vertical-align: top;
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             }
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             .message-content {
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 white-space: pre-wrap; /* Preserve line breaks in message */
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 word-wrap: break-word;
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             }
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             .footer {
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 margin-top: 20px;
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 text-align: center;
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 font-size: 0.9em;
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 color: #777777;
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             }
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:         </style>
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:     </head>
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:     <body>
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:         <div class="container">
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             <h2>Ny henvendelse modtaget</h2>
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             <table>
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 <tr><td class="label">Navn:</td><td class="value">Monica</td></tr>
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 <tr><td class="label">Email:</td><td class="value">gimmermbc@gmail.com</td></tr>
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 <tr><td class="label">Telefon:</td><td class="value">26179785</td></tr>
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 <tr><td class="label">Postnummer:</td><td class="value">2791</td></tr>
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 <tr><td class="label">Adresse:</td><td class="value">Haarlem Alle 37</td></tr><tr><td class="label">Boligtype:</td><td class="value">Villa/Parcelhus</td></tr></table>
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             <div class="footer">
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 <p>Denne email blev sendt fra kontaktformularen på cakisolering.dk</p>
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             </div>
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:         </div>
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:     </body>
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER:     </html>
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER: 
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER: 
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER: --b1=_bYrW2tuvqQdUPyt6ws7rVpDjMBi5w5wmJXLaQNjSmQ0--
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER: 
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER: .
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (2): SERVER -> CLIENT: 250 2.0.0 Ok: queued as 331e0e7b-887e-11f0-822a-d52c8ab32ef4
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (1): CLIENT -> SERVER: QUIT
+
+[03-Sep-2025 04:26:45 UTC] PHPMailer Debug (2): SERVER -> CLIENT: 221 2.0.0 Bye
+
+[03-Sep-2025 04:26:45 UTC] Mail successfully sent to kontakt@cakisolering.dk. PHPMailer Debug Info:
+SERVER -> CLIENT: 220 mailout1.pub.mailoutpod2-cph3.one.com ESMTP
+
+CLIENT -> SERVER: EHLO cakisolering.dk
+
+SERVER -> CLIENT: 250-mailout1.pub.mailoutpod2-cph3.one.com
+250-PIPELINING
+250-CHUNKING
+250-SIZE 104857600
+250-AUTH LOGIN PLAIN
+250-ENHANCEDSTATUSCODES
+250 8BITMIME
+
+CLIENT -> SERVER: AUTH LOGIN
+
+SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 235 2.7.0 Ok
+
+CLIENT -> SERVER: MAIL FROM:<kontakt@cakisolering.dk>
+
+SERVER -> CLIENT: 250 2.1.0 Ok
+
+CLIENT -> SERVER: RCPT TO:<kontakt@cakisolering.dk>
+
+SERVER -> CLIENT: 250 2.1.5 Ok
+
+CLIENT -> SERVER: DATA
+
+SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+
+CLIENT -> SERVER: Date: Wed, 3 Sep 2025 04:26:45 +0000
+
+CLIENT -> SERVER: To: CAK Isolering Inbox <kontakt@cakisolering.dk>
+
+CLIENT -> SERVER: From: CAK Isolering Website <kontakt@cakisolering.dk>
+
+CLIENT -> SERVER: Subject: Ny Henvendelse fra Hjemmeside: Monica
+
+CLIENT -> SERVER: Message-ID: <bYrW2tuvqQdUPyt6ws7rVpDjMBi5w5wmJXLaQNjSmQ0@cakisolering.dk>
+
+CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+CLIENT -> SERVER: MIME-Version: 1.0
+
+CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+CLIENT -> SERVER:  boundary="b1=_bYrW2tuvqQdUPyt6ws7rVpDjMBi5w5wmJXLaQNjSmQ0"
+
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_bYrW2tuvqQdUPyt6ws7rVpDjMBi5w5wmJXLaQNjSmQ0
+
+CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: Ny henvendelse:
+
+CLIENT -> SERVER: Navn: Monica
+
+CLIENT -> SERVER: Email: gimmermbc@gmail.com
+
+CLIENT -> SERVER: Telefon: 26179785
+
+CLIENT -> SERVER: Postnummer: 2791
+
+CLIENT -> SERVER: Adresse: Haarlem Alle 37
+
+CLIENT -> SERVER: Boligtype: Villa/Parcelhus
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_bYrW2tuvqQdUPyt6ws7rVpDjMBi5w5wmJXLaQNjSmQ0
+
+CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: <!DOCTYPE html>
+
+CLIENT -> SERVER:     <html lang="da">
+
+CLIENT -> SERVER:     <head>
+
+CLIENT -> SERVER:         <meta charset="UTF-8">
+
+CLIENT -> SERVER:         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+CLIENT -> SERVER:         <title>Ny Henvendelse</title>
+
+CLIENT -> SERVER:         <style>
+
+CLIENT -> SERVER:             body {
+
+CLIENT -> SERVER:                 font-family: Arial, sans-serif;
+
+CLIENT -> SERVER:                 line-height: 1.6;
+
+CLIENT -> SERVER:                 color: #333333;
+
+CLIENT -> SERVER:                 margin: 0;
+
+CLIENT -> SERVER:                 padding: 20px;
+
+CLIENT -> SERVER:                 background-color: #f4f4f4;
+
+CLIENT -> SERVER:             }
+
+CLIENT -> SERVER:             .container {
+
+CLIENT -> SERVER:                 max-width: 600px;
+
+CLIENT -> SERVER:                 margin: 20px auto;
+
+CLIENT -> SERVER:                 background-color: #ffffff;
+
+CLIENT -> SERVER:                 padding: 30px;
+
+CLIENT -> SERVER:                 border-radius: 8px;
+
+CLIENT -> SERVER:                 box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+
+CLIENT -> SERVER:             }
+
+CLIENT -> SERVER:             h2 {
+
+CLIENT -> SERVER:                 color: #003366; /* Darker blue heading */
+
+CLIENT -> SERVER:                 border-bottom: 2px solid #eeeeee;
+
+CLIENT -> SERVER:                 padding-bottom: 10px;
+
+CLIENT -> SERVER:                 margin-top: 0;
+
+CLIENT -> SERVER:             }
+
+CLIENT -> SERVER:             table {
+
+CLIENT -> SERVER:                 width: 100%;
+
+CLIENT -> SERVER:                 border-collapse: collapse;
+
+CLIENT -> SERVER:                 margin-bottom: 20px;
+
+CLIENT -> SERVER:             }
+
+CLIENT -> SERVER:             td {
+
+CLIENT -> SERVER:                 text-align: left;
+
+CLIENT -> SERVER:                 padding: 12px;
+
+CLIENT -> SERVER:                 border: 1px solid #dddddd;
+
+CLIENT -> SERVER:             }
+
+CLIENT -> SERVER:             .label {
+
+CLIENT -> SERVER:                 font-weight: bold;
+
+CLIENT -> SERVER:                 width: 150px; /* Adjust width if needed */
+
+CLIENT -> SERVER:                 background-color: #f9f9f9; /* Light background for labels */
+
+CLIENT -> SERVER:                 vertical-align: top; /* Align labels top */
+
+CLIENT -> SERVER:                 color: #555555;
+
+CLIENT -> SERVER:             }
+
+CLIENT -> SERVER:             .value {
+
+CLIENT -> SERVER:                  vertical-align: top; /* Align values top */
+
+CLIENT -> SERVER:             }
+
+CLIENT -> SERVER:             .message-label {
+
+CLIENT -> SERVER:                 vertical-align: top;
+
+CLIENT -> SERVER:             }
+
+CLIENT -> SERVER:             .message-content {
+
+CLIENT -> SERVER:                 white-space: pre-wrap; /* Preserve line breaks in message */
+
+CLIENT -> SERVER:                 word-wrap: break-word;
+
+CLIENT -> SERVER:             }
+
+CLIENT -> SERVER:             .footer {
+
+CLIENT -> SERVER:                 margin-top: 20px;
+
+CLIENT -> SERVER:                 text-align: center;
+
+CLIENT -> SERVER:                 font-size: 0.9em;
+
+CLIENT -> SERVER:                 color: #777777;
+
+CLIENT -> SERVER:             }
+
+CLIENT -> SERVER:         </style>
+
+CLIENT -> SERVER:     </head>
+
+CLIENT -> SERVER:     <body>
+
+CLIENT -> SERVER:         <div class="container">
+
+CLIENT -> SERVER:             <h2>Ny henvendelse modtaget</h2>
+
+CLIENT -> SERVER:             <table>
+
+CLIENT -> SERVER:                 <tr><td class="label">Navn:</td><td class="value">Monica</td></tr>
+
+CLIENT -> SERVER:                 <tr><td class="label">Email:</td><td class="value">gimmermbc@gmail.com</td></tr>
+
+CLIENT -> SERVER:                 <tr><td class="label">Telefon:</td><td class="value">26179785</td></tr>
+
+CLIENT -> SERVER:                 <tr><td class="label">Postnummer:</td><td class="value">2791</td></tr>
+
+CLIENT -> SERVER:                 <tr><td class="label">Adresse:</td><td class="value">Haarlem Alle 37</td></tr><tr><td class="label">Boligtype:</td><td class="value">Villa/Parcelhus</td></tr></table>
+
+CLIENT -> SERVER:             <div class="footer">
+
+CLIENT -> SERVER:                 <p>Denne email blev sendt fra kontaktformularen på cakisolering.dk</p>
+
+CLIENT -> SERVER:             </div>
+
+CLIENT -> SERVER:         </div>
+
+CLIENT -> SERVER:     </body>
+
+CLIENT -> SERVER:     </html>
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_bYrW2tuvqQdUPyt6ws7rVpDjMBi5w5wmJXLaQNjSmQ0--
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: .
+
+SERVER -> CLIENT: 250 2.0.0 Ok: queued as 331e0e7b-887e-11f0-822a-d52c8ab32ef4
+
+CLIENT -> SERVER: QUIT
+
+SERVER -> CLIENT: 221 2.0.0 Bye
+
+
+[03-Sep-2025 08:39:49 UTC] Received request. Method: POST
+[03-Sep-2025 08:39:49 UTC] Raw php://input (377 bytes): {"name":"Julia Sandner","email":"jhandball@yahoo.de","phone":"60535089","zipcode":"4000","address":"Okseholm 18","house_type":"villa","message":"Hulmursisolering af en væg eller flere i en gul murstensvilla i Roskilde. \nDEn væg som SKAL er cirka 2,50 x 4m. men måske er da også en anden væg. DEn anden mulig væg er 2,50 x 6 m. Kommer lidt an på prisen.","consent":"on"}
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (2): SERVER -> CLIENT: 220 mailout3.pub.mailoutpod2-cph3.one.com ESMTP
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: EHLO cakisolering.dk
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (2): SERVER -> CLIENT: 250-mailout3.pub.mailoutpod2-cph3.one.com
+250-PIPELINING
+250-CHUNKING
+250-SIZE 104857600
+250-AUTH LOGIN PLAIN
+250-ENHANCEDSTATUSCODES
+250 8BITMIME
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: AUTH LOGIN
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (2): SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: [credentials hidden]
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (2): SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: [credentials hidden]
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (2): SERVER -> CLIENT: 235 2.7.0 Ok
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: MAIL FROM:<kontakt@cakisolering.dk>
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (2): SERVER -> CLIENT: 250 2.1.0 Ok
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: RCPT TO:<kontakt@cakisolering.dk>
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (2): SERVER -> CLIENT: 250 2.1.5 Ok
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: DATA
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (2): SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Date: Wed, 3 Sep 2025 08:39:49 +0000
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: To: CAK Isolering Inbox <kontakt@cakisolering.dk>
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: From: CAK Isolering Website <kontakt@cakisolering.dk>
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Subject: Ny Henvendelse fra Hjemmeside: Julia Sandner
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Message-ID: <gpqCItVoQp2MuFVaiCSL4RIek3f8Tzb4TDw7QWbswU@cakisolering.dk>
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: MIME-Version: 1.0
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:  boundary="b1=_gpqCItVoQp2MuFVaiCSL4RIek3f8Tzb4TDw7QWbswU"
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: 
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: --b1=_gpqCItVoQp2MuFVaiCSL4RIek3f8Tzb4TDw7QWbswU
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: 
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Ny henvendelse:
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Navn: Julia Sandner
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Email: jhandball@yahoo.de
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Telefon: 60535089
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Postnummer: 4000
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Adresse: Okseholm 18
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Boligtype: Villa/Parcelhus
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Besked: Hulmursisolering af en væg eller flere i en gul murstensvilla i Roskilde. 
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: DEn væg som SKAL er cirka 2,50 x 4m. men måske er da også en anden væg. DEn anden mulig væg er 2,50 x 6 m. Kommer lidt an på prisen.
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: 
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: --b1=_gpqCItVoQp2MuFVaiCSL4RIek3f8Tzb4TDw7QWbswU
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: 
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: <!DOCTYPE html>
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:     <html lang="da">
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:     <head>
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:         <meta charset="UTF-8">
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:         <title>Ny Henvendelse</title>
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:         <style>
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             body {
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 font-family: Arial, sans-serif;
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 line-height: 1.6;
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 color: #333333;
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 margin: 0;
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 padding: 20px;
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 background-color: #f4f4f4;
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             }
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             .container {
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 max-width: 600px;
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 margin: 20px auto;
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 background-color: #ffffff;
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 padding: 30px;
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 border-radius: 8px;
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             }
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             h2 {
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 color: #003366; /* Darker blue heading */
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 border-bottom: 2px solid #eeeeee;
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 padding-bottom: 10px;
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 margin-top: 0;
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             }
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             table {
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 width: 100%;
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 border-collapse: collapse;
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 margin-bottom: 20px;
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             }
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             td {
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 text-align: left;
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 padding: 12px;
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 border: 1px solid #dddddd;
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             }
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             .label {
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 font-weight: bold;
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 width: 150px; /* Adjust width if needed */
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 background-color: #f9f9f9; /* Light background for labels */
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 vertical-align: top; /* Align labels top */
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 color: #555555;
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             }
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             .value {
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                  vertical-align: top; /* Align values top */
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             }
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             .message-label {
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 vertical-align: top;
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             }
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             .message-content {
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 white-space: pre-wrap; /* Preserve line breaks in message */
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 word-wrap: break-word;
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             }
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             .footer {
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 margin-top: 20px;
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 text-align: center;
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 font-size: 0.9em;
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 color: #777777;
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             }
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:         </style>
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:     </head>
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:     <body>
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:         <div class="container">
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             <h2>Ny henvendelse modtaget</h2>
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             <table>
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 <tr><td class="label">Navn:</td><td class="value">Julia Sandner</td></tr>
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 <tr><td class="label">Email:</td><td class="value">jhandball@yahoo.de</td></tr>
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 <tr><td class="label">Telefon:</td><td class="value">60535089</td></tr>
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 <tr><td class="label">Postnummer:</td><td class="value">4000</td></tr>
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 <tr><td class="label">Adresse:</td><td class="value">Okseholm 18</td></tr><tr><td class="label">Boligtype:</td><td class="value">Villa/Parcelhus</td></tr><tr><td class="label message-label">Besked:</td><td class="value message-content">Hulmursisolering af en væg eller flere i en gul murstensvilla i Roskilde. <br />
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: DEn væg som SKAL er cirka 2,50 x 4m. men måske er da også en anden væg. DEn anden mulig væg er 2,50 x 6 m. Kommer lidt an på prisen.</td></tr></table>
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             <div class="footer">
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:                 <p>Denne email blev sendt fra kontaktformularen på cakisolering.dk</p>
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:             </div>
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:         </div>
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:     </body>
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER:     </html>
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: 
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: 
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: --b1=_gpqCItVoQp2MuFVaiCSL4RIek3f8Tzb4TDw7QWbswU--
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: 
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: .
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (2): SERVER -> CLIENT: 250 2.0.0 Ok: queued as 8d5dea86-88a1-11f0-aa5b-0f90c05e4eef
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (1): CLIENT -> SERVER: QUIT
+
+[03-Sep-2025 08:39:49 UTC] PHPMailer Debug (2): SERVER -> CLIENT: 221 2.0.0 Bye
+
+[03-Sep-2025 08:39:49 UTC] Mail successfully sent to kontakt@cakisolering.dk. PHPMailer Debug Info:
+SERVER -> CLIENT: 220 mailout3.pub.mailoutpod2-cph3.one.com ESMTP
+
+CLIENT -> SERVER: EHLO cakisolering.dk
+
+SERVER -> CLIENT: 250-mailout3.pub.mailoutpod2-cph3.one.com
+250-PIPELINING
+250-CHUNKING
+250-SIZE 104857600
+250-AUTH LOGIN PLAIN
+250-ENHANCEDSTATUSCODES
+250 8BITMIME
+
+CLIENT -> SERVER: AUTH LOGIN
+
+SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 235 2.7.0 Ok
+
+CLIENT -> SERVER: MAIL FROM:<kontakt@cakisolering.dk>
+
+SERVER -> CLIENT: 250 2.1.0 Ok
+
+CLIENT -> SERVER: RCPT TO:<kontakt@cakisolering.dk>
+
+SERVER -> CLIENT: 250 2.1.5 Ok
+
+CLIENT -> SERVER: DATA
+
+SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+
+CLIENT -> SERVER: Date: Wed, 3 Sep 2025 08:39:49 +0000
+
+CLIENT -> SERVER: To: CAK Isolering Inbox <kontakt@cakisolering.dk>
+
+CLIENT -> SERVER: From: CAK Isolering Website <kontakt@cakisolering.dk>
+
+CLIENT -> SERVER: Subject: Ny Henvendelse fra Hjemmeside: Julia Sandner
+
+CLIENT -> SERVER: Message-ID: <gpqCItVoQp2MuFVaiCSL4RIek3f8Tzb4TDw7QWbswU@cakisolering.dk>
+
+CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+CLIENT -> SERVER: MIME-Version: 1.0
+
+CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+CLIENT -> SERVER:  boundary="b1=_gpqCItVoQp2MuFVaiCSL4RIek3f8Tzb4TDw7QWbswU"
+
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_gpqCItVoQp2MuFVaiCSL4RIek3f8Tzb4TDw7QWbswU
+
+CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: Ny henvendelse:
+
+CLIENT -> SERVER: Navn: Julia Sandner
+
+CLIENT -> SERVER: Email: jhandball@yahoo.de
+
+CLIENT -> SERVER: Telefon: 60535089
+
+CLIENT -> SERVER: Postnummer: 4000
+
+CLIENT -> SERVER: Adresse: Okseholm 18
+
+CLIENT -> SERVER: Boligtype: Villa/Parcelhus
+
+CLIENT -> SERVER: Besked: Hulmursisolering af en væg eller flere i en gul murstensvilla i Roskilde. 
+
+CLIENT -> SERVER: DEn væg som SKAL er cirka 2,50 x 4m. men måske er da også en anden væg. DEn anden mulig væg er 2,50 x 6 m. Kommer lidt an på prisen.
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_gpqCItVoQp2MuFVaiCSL4RIek3f8Tzb4TDw7QWbswU
+
+CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: <!DOCTYPE html>
+
+CLIENT -> SERVER:     <html lang="da">
+
+CLIENT -> SERVER:     <head>
+
+CLIENT -> SERVER:         <meta charset="UTF-8">
+
+CLIENT -> SERVER:         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+CLIENT -> SERVER:         <title>Ny Henvendelse</title>
+
+CLIENT -> SERVER:         <style>
+
+CLIENT -> SERVER:             body {
+
+CLIENT -> SERVER:                 font-family: Arial, sans-serif;
+
+CLIENT -> SERVER:                 line-height: 1.6;
+
+CLIENT -> SERVER:                 color: #333333;
+
+CLIENT -> SERVER:                 margin: 0;
+
+CLIENT -> SERVER:                 padding: 20px;
+
+CLIENT -> SERVER:                 background-color: #f4f4f4;
+
+CLIENT -> SERVER:             }
+
+CLIENT -> SERVER:             .container {
+
+CLIENT -> SERVER:                 max-width: 600px;
+
+CLIENT -> SERVER:                 margin: 20px auto;
+
+CLIENT -> SERVER:                 background-color: #ffffff;
+
+CLIENT -> SERVER:                 padding: 30px;
+
+CLIENT -> SERVER:                 border-radius: 8px;
+
+CLIENT -> SERVER:                 box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+
+CLIENT -> SERVER:             }
+
+CLIENT -> SERVER:             h2 {
+
+CLIENT -> SERVER:                 color: #003366; /* Darker blue heading */
+
+CLIENT -> SERVER:                 border-bottom: 2px solid #eeeeee;
+
+CLIENT -> SERVER:                 padding-bottom: 10px;
+
+CLIENT -> SERVER:                 margin-top: 0;
+
+CLIENT -> SERVER:             }
+
+CLIENT -> SERVER:             table {
+
+CLIENT -> SERVER:                 width: 100%;
+
+CLIENT -> SERVER:                 border-collapse: collapse;
+
+CLIENT -> SERVER:                 margin-bottom: 20px;
+
+CLIENT -> SERVER:             }
+
+CLIENT -> SERVER:             td {
+
+CLIENT -> SERVER:                 text-align: left;
+
+CLIENT -> SERVER:                 padding: 12px;
+
+CLIENT -> SERVER:                 border: 1px solid #dddddd;
+
+CLIENT -> SERVER:             }
+
+CLIENT -> SERVER:             .label {
+
+CLIENT -> SERVER:                 font-weight: bold;
+
+CLIENT -> SERVER:                 width: 150px; /* Adjust width if needed */
+
+CLIENT -> SERVER:                 background-color: #f9f9f9; /* Light background for labels */
+
+CLIENT -> SERVER:                 vertical-align: top; /* Align labels top */
+
+CLIENT -> SERVER:                 color: #555555;
+
+CLIENT -> SERVER:             }
+
+CLIENT -> SERVER:             .value {
+
+CLIENT -> SERVER:                  vertical-align: top; /* Align values top */
+
+CLIENT -> SERVER:             }
+
+CLIENT -> SERVER:             .message-label {
+
+CLIENT -> SERVER:                 vertical-align: top;
+
+CLIENT -> SERVER:             }
+
+CLIENT -> SERVER:             .message-content {
+
+CLIENT -> SERVER:                 white-space: pre-wrap; /* Preserve line breaks in message */
+
+CLIENT -> SERVER:                 word-wrap: break-word;
+
+CLIENT -> SERVER:             }
+
+CLIENT -> SERVER:             .footer {
+
+CLIENT -> SERVER:                 margin-top: 20px;
+
+CLIENT -> SERVER:                 text-align: center;
+
+CLIENT -> SERVER:                 font-size: 0.9em;
+
+CLIENT -> SERVER:                 color: #777777;
+
+CLIENT -> SERVER:             }
+
+CLIENT -> SERVER:         </style>
+
+CLIENT -> SERVER:     </head>
+
+CLIENT -> SERVER:     <body>
+
+CLIENT -> SERVER:         <div class="container">
+
+CLIENT -> SERVER:             <h2>Ny henvendelse modtaget</h2>
+
+CLIENT -> SERVER:             <table>
+
+CLIENT -> SERVER:                 <tr><td class="label">Navn:</td><td class="value">Julia Sandner</td></tr>
+
+CLIENT -> SERVER:                 <tr><td class="label">Email:</td><td class="value">jhandball@yahoo.de</td></tr>
+
+CLIENT -> SERVER:                 <tr><td class="label">Telefon:</td><td class="value">60535089</td></tr>
+
+CLIENT -> SERVER:                 <tr><td class="label">Postnummer:</td><td class="value">4000</td></tr>
+
+CLIENT -> SERVER:                 <tr><td class="label">Adresse:</td><td class="value">Okseholm 18</td></tr><tr><td class="label">Boligtype:</td><td class="value">Villa/Parcelhus</td></tr><tr><td class="label message-label">Besked:</td><td class="value message-content">Hulmursisolering af en væg eller flere i en gul murstensvilla i Roskilde. <br />
+
+CLIENT -> SERVER: DEn væg som SKAL er cirka 2,50 x 4m. men måske er da også en anden væg. DEn anden mulig væg er 2,50 x 6 m. Kommer lidt an på prisen.</td></tr></table>
+
+CLIENT -> SERVER:             <div class="footer">
+
+CLIENT -> SERVER:                 <p>Denne email blev sendt fra kontaktformularen på cakisolering.dk</p>
+
+CLIENT -> SERVER:             </div>
+
+CLIENT -> SERVER:         </div>
+
+CLIENT -> SERVER:     </body>
+
+CLIENT -> SERVER:     </html>
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_gpqCItVoQp2MuFVaiCSL4RIek3f8Tzb4TDw7QWbswU--
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: .
+
+SERVER -> CLIENT: 250 2.0.0 Ok: queued as 8d5dea86-88a1-11f0-aa5b-0f90c05e4eef
+
+CLIENT -> SERVER: QUIT
+
+SERVER -> CLIENT: 221 2.0.0 Bye
+
+

@@ -1,0 +1,19 @@
+# Recommended .htaccess for HTML-only site
+# Ensure directory indexing and serving index.html
+
+# Enable rewrite engine
+RewriteEngine On
+
+# Serve index.html as default
+DirectoryIndex index.html
+
+# Ensure files are served correctly
+<IfModule mod_dir.c>
+    # DirectorySlash Off
+</IfModule>
+
+# Redirect all requests to index.html if it exists
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteRule ^(.*)$ index.html [L]
