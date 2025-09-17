@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# Block access to sensitive files and directories
+Disallow: /vendor/
+Disallow: /node_modules/
+Disallow: /composer.json
+Disallow: /composer.lock
+Disallow: /package.json
+Disallow: /package-lock.json
+Disallow: /*.log
+Disallow: /test_smtp.php
+
+# Sitemap location
+Sitemap: https://www.cakisolering.dk/sitemap.xml

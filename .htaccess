@@ -20,10 +20,15 @@ DirectoryIndex index.html
     # DirectorySlash Off
 </IfModule>
 
+# Custom 404 error page
+ErrorDocument 404 /404.html
+
 # Redirect all requests to index.html if it exists (for SPA routing)
+# But exclude 404.html from this rule
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-l
+RewriteCond %{REQUEST_URI} !^/404\.html$
 RewriteRule ^(.*)$ index.html [L]
 
 # Security headers
@@ -39,6 +44,9 @@ RewriteRule ^(.*)$ index.html [L]
 
     # Referrer Policy
     Header set Referrer-Policy "strict-origin-when-cross-origin"
+
+    # HTTP Strict Transport Security (HSTS)
+    Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
 
     # Ensure proper charset for HTML files
     <FilesMatch "\.html$">
